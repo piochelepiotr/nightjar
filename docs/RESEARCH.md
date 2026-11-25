@@ -107,3 +107,9 @@ Useful distinctions found in official forest-specific material:
 Several official forest pages support dispersed camping broadly while omitting an explicit universal pull-off distance or car-sleeping rule. Their entries retain that uncertainty. A forest match can provide relevant evidence but cannot alone set a road's permission to "allowed". The exact stop still needs compatible motor access, public ownership, absence of applicable camping restrictions, a lawful/safe stopping position, and any required local designation.
 
 For road-first interaction, show the road's name/number, vehicle classification and season, then the applicable local policy, map and closure links. Keep separate explanations for (1) may drive here, (2) may park here, and (3) may occupy the car overnight. The national MVUM road service lacks the dedicated local camping-corridor fields needed to collapse those checks into one automatic green line. Local PDF maps can supply additional evidence, but their camping dots/tables have not been converted into a complete geospatial permission dataset in this pass.
+
+## GitHub Pages first-version deployment
+
+The static frontend runs adapters directly and persists successful responses in browser Cache Storage. OSM’s main Overpass endpoint returned errors/timeouts during verification. A small Truckee parking query succeeded against the VK Maps global Overpass mirror listed by the OSM Wiki; the app uses that mirror, with the main endpoint as a fallback. Community data provenance remains OpenStreetMap; do not promote tags to official permission. Provider location queries are sent to the selected service.
+
+GitHub Pages cannot run the included Node backend. Recreation.gov availability can be blocked by browser CORS. The public app exposes that limitation, offers original booking links, and accepts an optional user-configured backend. This version does not depend on ChatGPT hosting.
