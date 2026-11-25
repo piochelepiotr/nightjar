@@ -3,11 +3,11 @@
     "id": "lake-tahoe-basin",
     "name": "Lake Tahoe Basin Management Unit",
     "match": "lake tahoe basin",
-    "summary": "Overnight occupancy is restricted to the places and durations listed in Forest Order 19-24-05; this is a separate unit from Tahoe National Forest.",
-    "vehicleRule": "A forest road or roadside parking space is not an authorized overnight location merely because driving or parking is permitted.",
+    "summary": "Overnight stays outside the specifically exempt areas are prohibited.",
+    "vehicleRule": "An open road or parking space does not authorize sleeping in the car. Forest Order 19-24-05 lists the exempt areas and limits and runs through December 1, 2027. Those exceptions are not fully digitized here.",
     "exceptions": [
       "Use only the exempt locations in Exhibits A and B and comply with their stay limits.",
-      "Order effective June 28, 2024 through December 1, 2027; check for replacements."
+      "Order effective June 28, 2024 through December 1, 2027; later orders may replace it."
     ],
     "sources": [
       {
@@ -30,8 +30,8 @@
     "id": "eldorado",
     "name": "Eldorado National Forest",
     "match": "eldorado",
-    "summary": "Drive-to dispersed camping is described as available on most forest land unless specifically prohibited. Undeveloped camping is limited to 10 days per ranger district per calendar year.",
-    "vehicleRule": "Keep vehicles on designated roads/trails; park within one vehicle length of the road or trail surface edge. Confirm the route is open to your vehicle on the current MVUM.",
+    "summary": "Roadside dispersed camping is generally permitted on eligible Forest Service land.",
+    "vehicleRule": "Park on an existing durable spot within one vehicle length of an open designated road. Keep the sleeping location at least 100 feet from water. Limit: 10 days per ranger district per calendar year.",
     "exceptions": [
       "Choose a spot at least 100 feet from lakes and streams.",
       "Stay outside developed-campground boundaries; current orders and seasonal road closures still apply.",
@@ -57,8 +57,8 @@
     "id": "inyo",
     "name": "Inyo National Forest",
     "match": "inyo",
-    "summary": "Dispersed camping is available outside mapped Restricted Recreation Areas. Stay limits are 14 consecutive days at one location and 28 days per calendar year forest-wide; relocation must be at least 10 miles.",
-    "vehicleRule": "Stay on established roads and do not drive off-road to camp. Use a cleared durable surface and verify that the precise pullout lies outside the Restricted Recreation Area boundary.",
+    "summary": "Dispersed camping is permitted outside Restricted Recreation Areas.",
+    "vehicleRule": "Keep the car on established roads; off-road driving to camp is prohibited. Stay at least 200 feet from water. Limit: 14 consecutive days at one location, 28 days per calendar year across the forest; move at least 10 miles.",
     "exceptions": [
       "At least 200 feet from water.",
       "Within Restricted Recreation Areas, camping is limited to developed campground campsites or posted overflow areas.",
@@ -84,8 +84,8 @@
     "id": "tahoe",
     "name": "Tahoe National Forest",
     "match": "tahoe",
-    "summary": "Roadside camping has significant mapped exclusions. Truckee/Sierraville Restricted Use Areas prohibit camping, including on roads and trails, except for specifically allowed places.",
-    "vehicleRule": "An open MVUM road does not override a camping-restriction area. Check the exact location against Order 17-25-05 and the Highway 20 order before treating a roadside stop as an overnight option.",
+    "summary": "Camping is prohibited within the mapped east-side and Highway 20 restricted areas, except specified sites and exemptions.",
+    "vehicleRule": "Truckee/Sierraville restrictions include roads and trails. Highway 20 has mapped quarter-mile and half-mile buffers and Conservation Camp Road restrictions. The app has not yet digitized those exclusions, so an exact roadside verdict here remains unknown.",
     "exceptions": [
       "East-side restricted areas: approved campgrounds/designated dispersed sites and specified trail corridors only; a hiking-corridor exemption does not authorize driving there.",
       "Highway 20: mapped half-mile and quarter-mile buffers and Conservation Camp Road restrictions under Order 17-25-01.",
@@ -114,8 +114,8 @@
     "id": "mendocino",
     "name": "Mendocino National Forest",
     "match": "mendocino",
-    "summary": "Dispersed camping is described as available outside developed sites, but camping within one mile of a developed recreation site is prohibited.",
-    "vehicleRule": "Use roads open to your vehicle on the current MVUM and an existing impacted site. The inspected guidance gives no universal off-road pullout distance; do not infer one.",
+    "summary": "Dispersed camping is permitted outside developed sites and their one-mile exclusion buffers.",
+    "vehicleRule": "Use an existing impacted site beside an open vehicle route, at least 150 feet from water. No universal off-road distance was established. At the same one-mile-radius location: 14 days per 30 days and 28 days per 12 months.",
     "exceptions": [
       "Remain at least 150 feet from water.",
       "Developed recreation sites include campgrounds, picnic areas and trailheads; the one-mile exclusion matters even when an adjacent road is open.",
@@ -141,8 +141,8 @@
     "id": "shasta-trinity",
     "name": "Shasta-Trinity National Forest",
     "match": "shasta",
-    "summary": "Dispersed camping is broadly described as available, but the published roadside parking and campsite setback instructions do not clearly authorize sleeping inside a roadside vehicle.",
-    "vehicleRule": "The leaflet limits parking to one vehicle length from a designated road, while both the leaflet and current camping page say camps must be at least 200 feet from roads. Ask the ranger district how this applies to sleeping in the car at the proposed pullout.",
+    "summary": "The published guidance does not clearly settle sleeping inside a roadside car.",
+    "vehicleRule": "Parking is limited to one vehicle length from a designated road, but camps are required to be at least 200 feet from roads. Those two instructions do not establish a yes for sleeping in the parked car; this map therefore marks it unknown.",
     "exceptions": [
       "No dispersed camping at Lewiston Lake or in the Mt. Shasta plantations area.",
       "Other exclusions include restricted nesting areas and mapped no-camping zones.",
@@ -171,11 +171,11 @@
     "id": "sierra",
     "name": "Sierra National Forest",
     "match": "sierra",
-    "summary": "The forest describes choosing your own dispersed spot as an option throughout most of the forest. That broad description does not identify every legal car-sleeping pullout.",
-    "vehicleRule": "Use the current MVUM to verify the route, vehicle class and dates. The inspected forest pages do not establish a universal vehicle pull-off distance or blanket roadside sleeping permission.",
+    "summary": "Dispersed camping is generally described as available, but roadside vehicle sleeping is not explicitly settled.",
+    "vehicleRule": "The researched forest sources do not give a universal car-sleeping or pull-off rule. This app keeps the exact roadside permission unknown rather than applying another forest\u2019s distance limit.",
     "exceptions": [
       "Opening and closing dates can change without notice for weather or safety.",
-      "Check current forest orders, exact land ownership and the site before overnighting; this entry is general policy evidence."
+      "Exact ownership and current closure coverage remain unresolved at a selected point."
     ],
     "sources": [
       {
@@ -197,12 +197,12 @@
     "id": "plumas",
     "name": "Plumas National Forest",
     "match": "plumas",
-    "summary": "Official orders address dispersed campsites and limit their occupancy, but they do not identify all permitted roadside car-sleeping locations.",
-    "vehicleRule": "Check the current MVUM for vehicle access and seasonal allowances. No forest-wide roadside pull-off distance was verified in the inspected sources.",
+    "summary": "The sources establish camping limits but do not establish blanket roadside car-sleeping permission.",
+    "vehicleRule": "Dispersed limit: 14 days per ranger district per calendar year; 30 total camping days per year across the forest. A campsite is limited to eight people and two vehicles. A universal roadside pull-off distance was not established.",
     "exceptions": [
       "Dispersed camping is limited to 14 days per ranger district per calendar year; total forest camping is limited to 30 days per calendar year.",
       "Individual campsites are limited to eight people and two vehicles.",
-      "Check local no-camping/closure orders and exact site conditions; limits alone are not a grant of permission."
+      "Occupancy limits do not by themselves authorize roadside sleeping."
     ],
     "sources": [
       {
@@ -224,17 +224,21 @@
     "id": "stanislaus",
     "name": "Stanislaus National Forest",
     "match": "stanislaus",
-    "summary": "Dispersed roadside camping can be reached by graded dirt roads where local restrictions permit; use an existing site. The forest limits dispersed camping to 21 total days per ranger district per calendar year.",
-    "vehicleRule": "Use the MVUM for the road system and confirm the road is suitable for the car. No universal off-road pullout distance is stated in the inspected forest guidance.",
+    "summary": "Roadside dispersed camping is permitted outside developed recreation areas and other posted restrictions.",
+    "vehicleRule": "Park within one vehicle length of the designated forest transportation route, using an existing site. Keep camp at least 150 feet from water. Limit: 21 days per ranger district per calendar year.",
     "exceptions": [
       "Keep camps at least 150 feet from streams or other water.",
       "Dispersed camping is typically not allowed near developed campgrounds, picnic areas or trailheads.",
-      "Current closures, Cherry Lake restrictions, fire rules and seasonal access must be checked."
+      "Current closures, Cherry Lake restrictions, fire rules and seasonal access may add restrictions."
     ],
     "sources": [
       {
         "label": "Forest dispersed-camping guidance",
         "url": "https://www.fs.usda.gov/r05/stanislaus/recreation/dispersed-camping"
+      },
+      {
+        "label": "Official dispersed-camping parking rule",
+        "url": "https://www.fs.usda.gov/sites/nfs/files/r05/stanislaus/publication/dispersed%20campping%20ROG.pdf"
       }
     ],
     "mvumUrl": "https://www.fs.usda.gov/r05/stanislaus/maps-guides",
@@ -247,8 +251,8 @@
     "id": "gifford-pinchot",
     "name": "Gifford Pinchot National Forest",
     "match": "gifford pinchot",
-    "summary": "Motorized access to dispersed camps exists along specified MVUM corridors, not every open road. The current map and its tables identify the eligible locations.",
-    "vehicleRule": "Where designated, use only existing routes within 150 feet of the main road; highway-legal vehicles only, without resource damage. Do not create a route or drive farther than 150 feet.",
+    "summary": "Motorized dispersed camping is permitted only along designated camping corridors.",
+    "vehicleRule": "Use an existing route within 150 feet of the main road, in a highway-legal vehicle. Do not create a track. Keep at least 100 feet from water. This app has not yet digitized the camping-corridor tables.",
     "exceptions": [
       "Some roads do not permit motorized access to dispersed camps; absent corridor symbols do not grant access.",
       "Stay at least 100 feet from water and out of fragile meadows/restricted areas.",
@@ -278,10 +282,10 @@
     "id": "mount-hood",
     "name": "Mt. Hood National Forest",
     "match": "mt. hood",
-    "summary": "Dispersed camping is described as an option outside developed sites, with specific closed roads and sensitive areas excluded. The general camping page does not independently establish car-sleeping permission at an arbitrary pullout.",
-    "vehicleRule": "Use the MVUM for vehicle access and an existing impacted site. No blanket off-road driving distance was verified in the inspected forest guidance.",
+    "summary": "Dispersed camping is supported outside developed and restricted areas; exact roadside car sleeping is unresolved.",
+    "vehicleRule": "Use an existing impacted site, at least 100 feet from water. Limits: 14 consecutive days at one location and 28 days forest-wide per calendar year. Some roads and sensitive areas are closed to camping; a blanket pull-off distance was not established.",
     "exceptions": [
-      "Camping is closed in developed recreation sites, along some roads and in sensitive areas; ask the district for details.",
+      "Camping is closed in developed recreation sites, along some roads and in sensitive areas; the full set of exclusions is not mapped here.",
       "Camp at least 100 feet from streams, rivers and lakes.",
       "Maximum 14 consecutive days in one location and 28 days forest-wide per calendar year."
     ],
@@ -309,8 +313,8 @@
     "id": "deschutes",
     "name": "Deschutes National Forest",
     "match": "deschutes",
-    "summary": "Motorized dispersed camping access is route-specific. The current MVUM publishes vehicle classes, seasons and off-route distance allowances.",
-    "vehicleRule": "The 2011 travel decision allows access within 300 feet only on routes shown open to that use, to existing/designated/defined sites, no closer than 30 feet to water. Confirm the current MVUM for the exact route; the historical decision is not a current closure check.",
+    "summary": "Motorized dispersed camping requires a route designated for that use.",
+    "vehicleRule": "The historical travel decision permits up to 300 feet on eligible routes, at existing or designated sites and no closer than 30 feet to water. Current route-specific and area restrictions are not fully digitized here.",
     "exceptions": [
       "Routes absent from the current MVUM are not open to public motor vehicles.",
       "Current area closures, including active alerts around Bend, can override the underlying travel designation.",
@@ -336,8 +340,8 @@
     "id": "coconino",
     "name": "Coconino National Forest",
     "match": "coconino",
-    "summary": "Motorized dispersed camping is limited to road segments specifically designated for dispersed camping. Camping and campfire restriction areas are shown separately.",
-    "vehicleRule": "The 2025 travel map permits dispersed-camping vehicle use only within 300 feet of the edge of designated camping road segments on National Forest System land. Road-edge parking with a walk to a camp is a separate allowance.",
+    "summary": "Car camping is supported only on road segments designated for dispersed camping.",
+    "vehicleRule": "The allowance is up to 300 feet from the edge of a designated camping road, on National Forest System land. It does not apply to every open driving road. This app has not yet digitized those corridor designations.",
     "exceptions": [
       "The travel map identifies prohibited camping locations in Flagstaff and Sedona city limits.",
       "Check current MVUM, forest orders and local designated-site-only restrictions before using a pullout.",
@@ -363,8 +367,8 @@
     "id": "uinta-wasatch-cache",
     "name": "Uinta-Wasatch-Cache National Forest",
     "match": "uinta-wasatch-cache",
-    "summary": "Motorized dispersed-camping access depends on the ranger district and the exact MVUM camping table. There is no single forest-wide distance inferred here.",
-    "vehicleRule": "For example, the 2025 Pleasant Grove MVUM lists specific roads allowing access 150 feet off the road centerline, with the same vehicle classes and dates as the road. Apply that allowance only where the relevant table and map designate it.",
+    "summary": "Roadside vehicle camping depends on the exact ranger district and designated road segment.",
+    "vehicleRule": "Pleasant Grove\u2019s 2025 map allows 150 feet from road centerline only on specifically listed roads, with side-of-road and vehicle/season limits. That distance does not apply forest-wide. Corridor designations are not yet digitized here.",
     "exceptions": [
       "The map distinguishes left-side, right-side and both-side camping corridors.",
       "Other districts have their own maps and tables; never extend the Pleasant Grove allowance to another district.",
@@ -395,8 +399,8 @@
     "id": "white-river",
     "name": "White River National Forest",
     "match": "white river",
-    "summary": "The forest describes dispersed camping along roads shown on its MVUM. Some areas allow only designated sites or use shorter stay limits.",
-    "vehicleRule": "Choose an already impacted site no more than 300 feet from the road centerline and at least 100 feet from water; confirm the exact road and season on the current MVUM.",
+    "summary": "Roadside dispersed camping is permitted, with designated-site-only exceptions in some areas.",
+    "vehicleRule": "Use an already impacted site within 300 feet of the road centerline, at least 100 feet from water. General limit: 14 days per 30 days, then move outside a 20-mile radius. Some areas instead require designated sites or a seven-day limit.",
     "exceptions": [
       "Some locations restrict dispersed camping to designated sites or seven-day stays.",
       "Unless otherwise noted, maximum 14 days within 30 days, then relocate outside a 20-mile radius.",
