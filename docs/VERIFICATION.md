@@ -18,3 +18,7 @@ Verified 2026-11-25 against the local preview and the published GitHub Pages sit
 Chrome MCP's Offline emulation did not actually block a cache-busting network request during this session, so a fully disconnected browser run is **not** claimed. App-shell precaching and provider Cache Storage were inspected; cache behavior is covered by automated tests. The app refuses availability when the browser reports offline.
 
 This is a first version, not exhaustive legal clearance. Forest exclusion/camping-corridor geometries and live closure coverage remain incomplete. Those exact roadside verdicts are explicitly unknown. Store-specific car-sleeping permissions and municipal restrictions are not comprehensively ingested. Reviewed policies and source snapshots do not establish that a location is open tonight.
+
+## Mono Basin correction: local geometry
+
+A further 2026-11-25 research pass replaced the generic Inyo answer at covered points with the actual county restriction polygons and a public-ownership-based eligibility mask. All seven official-road coordinate fixtures pass: three CA120 West restriction hits, three farther-east eligible-zone samples, and the east-side LADWP prohibition. Tests also verify polygon holes, boundary uncertainty, and road splitting at polygon crossings. No-dispersed-camping data last edit is May 6, 2025, distinct from this import date.

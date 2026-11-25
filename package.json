@@ -8,13 +8,15 @@
     "build": "node scripts/build-pages.mjs",
     "test": "node --test tests/*.test.mjs",
     "refresh-data": "node scripts/harvest.mjs",
-    "build:pages": "node scripts/build-pages.mjs"
+    "build:pages": "node scripts/build-pages.mjs",
+    "refresh-local-evidence": "node scripts/import-eastern-sierra.mjs"
   },
   "dependencies": {
     "leaflet": "1.9.4"
   },
   "devDependencies": {
-    "esbuild": "^0.25.12"
+    "esbuild": "^0.25.12",
+    "polygon-clipping": "^0.15.7"
   },
   "engines": {
     "node": ">=22"

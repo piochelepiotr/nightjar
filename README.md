@@ -24,6 +24,14 @@ npm run refresh-data  # slow, paginated official-source import; network required
 npm run build         # rebuild after data or application changes
 ```
 
+## Location-specific Eastern Sierra mapping
+
+The Mono Basin example is resolved with actual geometry from the current county-backed Camp Like A Pro map. No-dispersed-camping polygons, wilderness, and designated-only areas are applied to selected coordinates and split road lines at their boundaries. Green eligibility zones intersect actual USFS Inyo ownership with Mono/Inyo County coverage and subtract those mapped exclusions. They are not inferred from administrative forest boundaries or the absence of a prohibition alone.
+
+The sampled CA 120 West canyon points are prohibited; several farther-east forest points are in the dispersed-camping zone; an east-side LADWP segment remains prohibited. On click, the card states which geographic rule applies, the conditions, the exact source polygon and publisher/fetch dates. These zones do not clear live road closures or establish a legally parkable shoulder.
+
+Refresh these sources with `npm run refresh-local-evidence`, then rebuild. Geometry and derivation are versioned and cached with the app. See [Mono Basin research](docs/MONO_BASIN_RESEARCH.md).
+
 ## First-version features
 
 - Official USFS, BLM, Caltrans, WSDOT, and Recreation.gov catalog with original-source links, restrictions, fees, seasons, and fetch dates. Sources overlap; record counts are not counts of unique physical sleeping spots.
@@ -41,7 +49,7 @@ npm run build         # rebuild after data or application changes
 
 Read [the research](docs/RESEARCH.md) before interpreting a map marker as overnight permission. The initial regional catalog and forest-policy review date are recorded in `data/manifest.json` and `data/forest-rules.json`. Fetch timestamps are observations of a publisher feed, not site inspections or a current closure clearance.
 
-**Important gaps:** no complete ingestion of forest orders, municipal vehicle-habitation ordinances, local camping-corridor PDF geometries, current road conditions, or private-store permission database. An open road, public ownership, 24-hour opening hours, RV parking policy, or overnight vehicle-parking tag alone does not establish permission to sleep in a car. State/private campground inventory is not integrated. Forest policies can require map-specific corridors, exclusion checks, and ranger confirmation. These remain visible uncertainties.
+**Important gaps:** no complete ingestion of forest orders, municipal vehicle-habitation ordinances, local camping-corridor PDF geometries outside the ingested Eastern Sierra map, current road conditions, or private-store permission database. An open road, public ownership, 24-hour opening hours, RV parking policy, or overnight vehicle-parking tag alone does not establish permission to sleep in a car. State/private campground inventory is not integrated. Forest policies can require map-specific corridors, exclusion checks, and ranger confirmation. These remain visible uncertainties.
 
 Source datasets and site text remain attributed to their respective publishers. OSM candidates are © OpenStreetMap contributors, ODbL; they are not authoritative legal evidence. Basemaps are attributed on the map. The Recreation.gov website read endpoints are observed, undocumented interfaces and may change; failure is shown explicitly.
 
@@ -66,6 +74,6 @@ Only fixed upstream providers are callable. Coordinates, dates, durations, and c
 
 GitHub Actions (`.github/workflows/pages.yml`) tests and publishes `dist/pages` to **https://piochelepiotr.github.io/nightjar/** on every push to `main`. Run `npm run build:pages` for the same static build locally. All files use relative paths for the project subdirectory. The public frontend does not call ChatGPT Sites.
 
-The regional catalog, forest summaries, and map boundaries are bundled for a single cacheable initial download (approximately 18MB before HTTP compression). Road/ownership/parking/geocoding/routing adapters run directly against providers that support browser access. Their responses persist in browser Cache Storage, capped at 250 entries. Some providers may reject browser requests; that is shown as unavailable rather than fabricated permission or inventory.
+The regional catalog, forest summaries, and map boundaries are bundled for a single cacheable initial download (approximately 24MB before HTTP compression). Road/ownership/parking/geocoding/routing adapters run directly against providers that support browser access. Their responses persist in browser Cache Storage, capped at 250 entries. Some providers may reject browser requests; that is shown as unavailable rather than fabricated permission or inventory.
 
 **Recreation.gov availability has no guaranteed browser CORS support.** The backend implementation is included and tested locally; on GitHub Pages use the official booking link when direct access is blocked, or configure your own reachable HTTPS backend under Sources & rules. The app never uses an anonymous third-party CORS proxy. This first version does not include a separately hosted backend.
