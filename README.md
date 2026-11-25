@@ -28,10 +28,10 @@ npm run build         # rebuild after data or application changes
 
 - Official USFS, BLM, Caltrans, WSDOT, and Recreation.gov catalog with original-source links, restrictions, fees, seasons, and fetch dates. Sources overlap; record counts are not counts of unique physical sleeping spots.
 - Forest-road geometry with vehicle class and seasonal-access fields; click a road or arbitrary point to inspect official Forest Service land status and relevant forest policies.
-- Fifteen researched forest-policy summaries, including Tahoe, Eldorado, Inyo, Mendocino, Stanislaus, Coconino, Uinta-Wasatch-Cache, and White River. Other forests explicitly remain unknown. Forest administration boundaries contain non-Forest-Service inholdings.
+- Fifteen researched forest-policy summaries with the practical roadside conditions written out, including Tahoe, Eldorado, Inyo, Mendocino, Stanislaus, Coconino, Uinta-Wasatch-Cache, and White River. Other forests explicitly remain unknown. Forest administration boundaries contain non-Forest-Service inholdings.
 - Yosemite boundary with the official prohibition on sleeping in parking lots / roadsides; registered campsites are required, and Camp 4 does not permit sleeping in cars.
 - Parking / Walmart discovery from OpenStreetMap in the map-center 0.1° cell. Enable parking research in Layers, zoom in, and load the area. No chain-wide overnight car-sleeping inference.
-- Distinct conditional, unknown, forbidden/closed, and personally recorded permission states. A camping record is not proof of car access. Forbidden places appear as map context but are excluded from suggestions. Campgrounds are off by default.
+- Researched summaries with concrete limits, unknown permission, forbidden/closed, and personally recorded permission states. A camping record is not proof of car access. Forbidden places appear as map context but are excluded from suggestions. Campgrounds are off by default.
 - Search, location, driving routes, and stops within a route corridor. Corridor distance is approximate geographic distance to the route, not a driving detour or live closure check.
 - Saved stops and permission notes on this device; JSON export. Personally recorded permission is current only on its stay date.
 - Recreation.gov availability for the same campsite over every requested night, including month boundaries. Five-minute cache. Equipment/vehicle compatibility, minimum stays, and bookability still need confirmation. Walk-up does not mean vacant.

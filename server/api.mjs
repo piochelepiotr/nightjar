@@ -1,7 +1,7 @@
 import places from '../data/places.json' with {type:'json'};
 import manifest from '../data/manifest.json' with {type:'json'};
-import forests from '../data/forests.geojson' with {type:'json'};
-import yosemite from '../data/yosemite.geojson' with {type:'json'};
+import forests from '../data/forests.json' with {type:'json'};
+import yosemite from '../data/yosemite.json' with {type:'json'};
 import rules from '../data/forest-rules.json' with {type:'json'};
 import {plain,point,roadCell,osmCell,parkingPermission,stayDates,availability,permission} from './core.mjs';
 const byId=new Map(places.map(p=>[p.id,p]));
