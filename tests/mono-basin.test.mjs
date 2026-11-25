@@ -1,7 +1,9 @@
-import test from 'node:test';import assert from 'node:assert/strict';import {localFinding} from '../server/local-evidence.mjs';
+import test from 'node:test';import assert from 'node:assert/strict';import {localFinding,appliesToDispersedUse} from '../server/local-evidence.mjs';
 // Coordinates sampled from official county road geometry, not guessed town centers.
 const west=[[37.9499678885235,-119.199833734036],[37.9311794360148,-119.160053907333],[37.9402180610182,-119.125148074294]],east=[[37.9211858939989,-119.04003120581],[37.9130352656338,-118.999946564127],[37.8834515020172,-118.949971382617]];
 test('actual CA120 West road vertices resolve to the Lee Vining Canyon restriction, not a general Inyo yes',()=>{for(const [lat,lon] of west){const d=localFinding(lat,lon);assert.equal(d.status,'forbidden');assert.equal(d.featureId,24);assert.match(d.reason,/Restricted Recreation/)}});
 test('farther-east CA120 forest samples pass public ownership and the mapped exclusion checks',()=>{for(const [lat,lon]of east){const d=localFinding(lat,lon);assert.equal(d?.status,'eligible');assert.match(d.summary,/existing legal forest-road pullout/);assert.match(d.summary,/200 feet/)}});
 test('east of US395 is not a blanket yes: LADWP land remains prohibited',()=>{const d=localFinding(37.8925485410041,-119.07987912012);assert.equal(d.status,'forbidden');assert.equal(d.featureId,4);assert.match(d.reason,/LADWP/)});
 test('absence of a local restriction outside the researched coverage does not manufacture permission',()=>{assert.equal(localFinding(39.7392,-104.9903),null)});
+
+test('a dispersed-camping ban does not erase authorized campground use or Caltrans rest-facility napping',()=>{assert.equal(appliesToDispersedUse({kind:'campground',source:'recreation.gov'}),false);assert.equal(appliesToDispersedUse({kind:'rest',source:'caltrans'}),false);assert.equal(appliesToDispersedUse({kind:'parking',source:'OpenStreetMap'}),true);assert.equal(appliesToDispersedUse({kind:'road'}),true)});
