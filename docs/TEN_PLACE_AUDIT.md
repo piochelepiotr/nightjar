@@ -60,7 +60,21 @@ occupancy. The proposed production architecture is in [ARCHITECTURE.md](ARCHITEC
 Chrome MCP checks center the actual map on each of the ten destinations, inspect
 the rendered recommendations and open the leading result to verify the displayed
 summary and source links. [Local browser observations](qa-local-browser.json)
-preserve those readings. A deployment verification record is added after release.
+preserve those readings. The same ten searches were repeated on the deployed
+GitHub Pages site in [live browser observations](qa-live-browser.json), deployment
+`c38bba2` ([successful workflow](https://github.com/piochelepiotr/nightjar/actions/runs/45702639141)).
+No console errors were recorded. O’Brien was additionally verified as a red
+closed-context marker with a closed detail verdict. Three Mono highway samples
+were checked again: west canyon prohibited, east LADWP prohibited, east public
+forest camping-policy eligible. A 390 × 844 mobile viewport had no horizontal
+overflow. Campground backups near El Portal/Glenwood and the separate Sedona area
+were also opened locally with their specific rules and source links.
+
+All 17 automated checks passed, including stale opening expiry, closed-facility
+exclusion, missing activity categories, exact radius behavior, same-site multi-night
+availability and the Mono boundary regressions. The hourly collection workflow
+also completed successfully during deployment; future scheduled-run timeliness is
+not guaranteed by that single run.
 
 This establishes that the researched findings are represented in the interface.
 It does **not** establish complete permission coverage or prove that the best
