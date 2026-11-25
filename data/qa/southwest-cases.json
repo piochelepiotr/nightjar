@@ -1,0 +1,230 @@
+{
+  "checkedAt": "2026-11-25",
+  "method": "Independent official-source research; coordinates with scope=area or corridor are reference points, never invented individual parking pads. Website verification is performed by the parent QA run.",
+  "cases": [
+    {
+      "id": "moab-ut",
+      "center": {
+        "name": "Moab, Utah",
+        "lat": 38.5733,
+        "lon": -109.5498
+      },
+      "candidates": [
+        {
+          "sourceId": "blm-moab-dubinky-designated-corridor",
+          "name": "Dubinky Well Road — marked primitive camping sites",
+          "lat": 38.62894,
+          "lon": -109.801845,
+          "scope": "corridor-search-area; coordinate is the road access reference, not an individual legal campsite",
+          "coordinateSource": "Utah State University 2025 Moab orientation guide; BLM independently confirms the named road's marked-site camping policy",
+          "carEvidence": "Official BLM maps describe designated primitive sites, posted parking boundaries and vehicle travel; public-road permission does not permit arbitrary roadside sleeping.",
+          "rules": {
+            "sleeping": "Use only a brown-post/tent-symbol designated primitive site; do not camp at the coordinate simply because it marks road access.",
+            "fee": "Official BLM camping map identifies designated primitive sites as free; separate paid Lone Mesa Group Sites are not this recommendation.",
+            "permit": "No ordinary overnight permit stated in reviewed Moab sources.",
+            "stayLimit": "14 days at one location, then relocate at least 30 miles.",
+            "waste": "Carry out solid human waste; portable toilet required where no constructed toilet provided.",
+            "vehicleAccess": "Road access reference is about21.6miles from Moab; USU describes2WD on main routes, highclearance/4WD on secondary routes. No general passenger-car guarantee for every marked site.",
+            "fires": "No woodcutting or gathering; obey current fire restrictions."
+          },
+          "validity": {
+            "checkedAt": "2026-11-25",
+            "policy": "Current BLM recreation page plus2024visitor map/guide, older official georeferenced map for marked-site detail",
+            "geometryGap": "No verified public vector camping-zone/site geometry found. Do not paint corridor entirely green."
+          },
+          "operatingStatus": "No closure found in reviewed current policy sources; per-site occupancy and road-condition availability unknown.",
+          "sourceUrls": [
+            "https://www.blm.gov/programs/recreation/recreation-activities/utah",
+            "https://www.blm.gov/sites/default/files/docs/2025-09/BLMUtahMoabVisitorMap-North_112124_508.pdf",
+            "https://www.blm.gov/sites/blm.gov/files/BLMUtahMoabCamping.pdf",
+            "https://www.usu.edu/ucc/files/2025/welcome-packets-and-gear-lists/2025-Moab-Housing-Resources.pdf"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "name": "Arbitrary Colorado River/SR128 roadside pullout, river-left Moab Daily corridor",
+          "reason": "BLM requires developed campgrounds on river-left; dispersed camping is forbidden.",
+          "sourceUrls": [
+            "https://www.blm.gov/programs/recreation/recreation-activities/utah"
+          ],
+          "geometry": "Official current Moab visitor PDF shows campground-only zone; not yet validated as vector polygon."
+        },
+        {
+          "name": "Lone Mesa Group Sites",
+          "reason": "Paid reserved group campground is a backup, not the desired primitive primary; do not conflate with nearby free marked primitive sites.",
+          "sourceUrls": [
+            "https://www.blm.gov/visit/lone-mesa-group-sites"
+          ]
+        }
+      ],
+      "expected": [
+        "Surface marked primitive-site corridor as a useful primary search area before paid campgrounds",
+        "Say only marked sites are legal; coordinate is access reference",
+        "Show current authoritative restrictions source",
+        "Do not falsely present all BLM land or all roadside pullouts as permitted",
+        "Flag camping-zone polygon coverage gap"
+      ]
+    },
+    {
+      "id": "flagstaff-sedona-az",
+      "center": {
+        "name": "Flagstaff, Arizona",
+        "lat": 35.1983,
+        "lon": -111.6513
+      },
+      "candidates": [
+        {
+          "sourceId": "usfs-70996",
+          "name": "Cinder Hills Off Highway Vehicle Area",
+          "lat": 35.328054,
+          "lon": -111.523053,
+          "scope": "official recreation-area reference point; no claim that every acre or entrance pullout permits camping",
+          "carEvidence": "Official live USFS page lists OHV Camping and vehicle access via FR776; official2025travel map identifies Cinder Hills as designated motorized open area. The general forest-road camping rule is not used as sole evidence.",
+          "rules": {
+            "sleeping": "Use the designated motorized recreation/camping area beyond any posted no-camping entrance area; no individual pad invented.",
+            "fee": "No fee stated on current official page; do not label a paid campground.",
+            "permit": "No ordinary overnight camping permit is stated on the current official page.",
+            "stayLimit": "14 days in any consecutive 30 days under order 03-04-00-26-08.",
+            "vehicleAccess": "13 miles northeast of downtown Flagstaff, reached by FR 776 from US 89. The November 23 road status lists FR 776 open. Loose cinders and rough roads mean passenger-car access is not guaranteed everywhere.",
+            "water": "No potable water.",
+            "other": "No glass containers. Nearby Sunset Crater National Monument and Strawberry Crater Wilderness closed to OHV travel."
+          },
+          "validity": {
+            "checkedAt": "2026-11-25",
+            "recreationPageUpdated": "2025-05-08",
+            "roadStatusUpdated": "2026-11-23",
+            "stayOrderStart": "2026-10-29",
+            "stayOrderEnd": "2028-10-29 per implementation text; the page header conflicts with October 26"
+          },
+          "operatingStatus": "Official siteOpen and FR776Open; no availability/occupancy guarantee.",
+          "sourceUrls": [
+            "https://www.fs.usda.gov/r03/coconino/recreation/cinder-hills-highway-vehicle-area",
+            "https://www.fs.usda.gov/r03/coconino/conditions/forest-roads-status",
+            "https://www.fs.usda.gov/r03/coconino/alerts/14-day-camping-limit-consecutive-30-day-period-0",
+            "https://www.fs.usda.gov/sites/nfs/files/r03/coconino/publication/2025-travel-map.pdf",
+            "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_RecreationOpportunities_01/MapServer/0"
+          ]
+        },
+        {
+          "sourceId": "usfs-84034",
+          "name": "West Sedona — eight designated dispersed camping areas",
+          "lat": 34.814265,
+          "lon": -111.905162,
+          "scope": "official reference point for eight named areas, not an exact campsite; separate Sedona subcase, farther than30roadmiles fromFlagstaff",
+          "carEvidence": "USFS signed-order exhibit locates roadside dispersed areas Rockview, Angel Valley, Javelina, Surprise, Windmill, Cockscomb, Greasy Spoon, Nolan alongFR525/89B/152A system; these named areas are express camping-ban exceptions.",
+          "rules": {
+            "sleeping": "Camp only inside one of the eight designated areas; arbitraryFR525roadside pullouts prohibited within the wider order area.",
+            "fee": "Free.",
+            "permit": "No reservation required; first come, first served.",
+            "stayLimit": "14 days; the forestwide limit of 14 days in any 30 days also applies.",
+            "vehicleAccess": "FR 525 between SR 89A and FR 152C was listed open November 23. This does not guarantee every inner spur is suitable for a passenger car.",
+            "fires": "No wood or charcoal fires at any time; LPG stoves and grills with an on/off control are permitted.",
+            "water": "No potable water."
+          },
+          "validity": {
+            "checkedAt": "2026-11-25",
+            "order": "03-04-06-26-04",
+            "effective": "2026-08-31",
+            "expires": "2028-08-31"
+          },
+          "operatingStatus": "The official recreation page says Site Open; FR 525 is open. The November Red Rock flood alert does not list this site as closed.",
+          "sourceUrls": [
+            "https://www.fs.usda.gov/r03/coconino/recreation/west-sedona-designated-dispersed-camping-area",
+            "https://www.fs.usda.gov/r03/coconino/alerts/west-sedona-camping-and-campfire-restrictions-0",
+            "https://www.fs.usda.gov/r03/coconino/conditions/forest-roads-status",
+            "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/r03_ForestOrder/FeatureServer/1"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "name": "Arbitrary roadside point within West Sedona closure polygon outside designated8areas",
+          "reason": "Current order03-04-06-26-04 prohibits camping with named-siteexceptions; source polygonobjectid78594 is available.",
+          "sourceUrls": [
+            "https://www.fs.usda.gov/r03/coconino/alerts/west-sedona-camping-and-campfire-restrictions-0"
+          ],
+          "geometry": "research/audit-southwest/r03-az-orders.geojson objectid78594"
+        },
+        {
+          "name": "Generic Flagstaff NationalForest pullout",
+          "reason": "03-04-08-25-01 mapped camping prohibition objectid75371, unless an identified exception applies.",
+          "geometry": "research/audit-southwest/r03-az-orders.geojson objectid75371"
+        },
+        {
+          "name": "Pumphouse Wash unspecified roadside spot",
+          "reason": "Camping only in designatedloops1–4; wider03-04-08-25-02 prohibitscamping. OfficialEDW81580openstatus conflicts with oldOct12seasonendfield, so explicitlyresolveorflagstatusuncertainty."
+        }
+      ],
+      "expected": [
+        "Find Cinder Hills although its marker activity is OHV riding rather than Dispersed Camping.",
+        "Find West Sedona although its marker activity is null.",
+        "Do not turn a 14-day stay limit into a total camping ban.",
+        "Preserve the named designated camping exceptions inside the wider restriction area.",
+        "Show summarized rules and official source links.",
+        "Do not draw an allowed 300-foot camping buffer along every open road."
+      ]
+    },
+    {
+      "id": "las-vegas-nv",
+      "center": {
+        "name": "Las Vegas, Nevada",
+        "lat": 36.1147,
+        "lon": -115.1728
+      },
+      "candidates": [
+        {
+          "sourceId": "blm-jean-roach-dry-lakes",
+          "name": "Jean/Roach Dry Lakes — BLM dispersed recreation area",
+          "lat": 35.804889,
+          "lon": -115.274255,
+          "scope": "official recreation-area reference point; broad search area, not a surveyed individual pullout",
+          "carEvidence": "BLM lists dispersed camping as an activity, publishes coordinates and driving directions, and distinguishes motorized travel on the lakebed from existing roads and trails outside it.",
+          "rules": {
+            "sleeping": "Dispersed camping is an official listed use of this recreation area.",
+            "fee": "No camping fee stated on official page; not independently verified as a zero-dollar fee.",
+            "permit": "No ordinary overnight permit is stated on the official page.",
+            "stayLimit": "14 days in any 28 days; then people and property must relocate outside a 25-mile radius, or to land not managed by BLM, for 14 days.",
+            "vehicleAccess": "Official directions place this area about 26 miles south of Las Vegas: I-15 Sloan exit 25 to Las Vegas Boulevard, then Knight Ranch Road. Outside the dry lakebed use existing roads and trails only.",
+            "weather": "After precipitation the lakebed may retain deep water for a long time. BLM advises against driving on it after rain. Ground conditions are separate from camping permission."
+          },
+          "validity": {
+            "checkedAt": "2026-11-25",
+            "policy": "Live official BLM location and Southern Nevada District pages; no blanket permission inferred from land ownership"
+          },
+          "operatingStatus": "The official page lists dispersed camping. Current ground conditions and occupancy are unknown; no closure was identified on the reviewed page.",
+          "sourceUrls": [
+            "https://www.blm.gov/visit/jeanroach-dry-lakebed-special-recreation-management-area",
+            "https://www.blm.gov/southern-nevada-district-recreation"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "name": "BLM parcels within the Las Vegas Valley camping closure",
+          "reason": "The district publishes an explicit camping closure map. Public ownership alone does not establish permission.",
+          "sourceUrls": [
+            "https://www.blm.gov/southern-nevada-district-recreation",
+            "https://www.blm.gov/sites/default/files/images/2024-02/Nevada_SNDO_In-Valley-Camping-Closure-Map.png"
+          ],
+          "geometry": "An official raster boundary exists; vector conversion has not yet been validated."
+        },
+        {
+          "name": "Arbitrary trailhead or roadside car camping in Red Rock Canyon NCA",
+          "reason": "The NCA has camping restrictions with specific designated-site and high-elevation backcountry exceptions. These do not establish general roadside car-sleeping permission.",
+          "sourceUrls": [
+            "https://www.blm.gov/nevada/red-rock-canyon-nca/recreation",
+            "https://www.blm.gov/sites/blm.gov/files/documents/files/NV-LE-Supplemental-Regulations.pdf"
+          ]
+        }
+      ],
+      "expected": [
+        "Recommend the official Jean/Roach dispersed recreation area before paid campgrounds.",
+        "Label the reference point as an area, not an exact legal parking pad.",
+        "Display the stay limit, existing-road restriction and wet-lakebed warning.",
+        "Do not classify every BLM parcel near Las Vegas as allowed.",
+        "Disclose the local closure boundaries that have not yet been converted to geometry."
+      ]
+    }
+  ]
+}

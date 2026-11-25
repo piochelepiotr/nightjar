@@ -1,0 +1,116 @@
+{
+  "researchedAt": "2026-11-25",
+  "radiusMiles": 30,
+  "distanceMethod": "straight-line discovery radius; never road distance",
+  "cases": [
+    {
+      "id": "denver-front-range",
+      "center": {"name": "Denver", "lat": 39.7392, "lon": -104.9903},
+      "candidates": [
+        {
+          "sourceId": "usfs-28368",
+          "name": "Winiger Ridge designated roadside sites",
+          "lat": 39.949348,
+          "lon": -105.371605,
+          "scope": "official area/entrance marker; NOT a numbered campsite or permission to sleep at this coordinate",
+          "coordinateSource": "Current USFS recreation page. Older EDW area point is 39.961039,-105.396742 and primary activity is Intermediate Parent Group, so an activity filter misses it.",
+          "carEvidence": "USFS explicitly permits overnight use at designated sites reached by seasonal NFSR359 and recommends high clearance. Denver Water directions tell visitors to drive CR359 to designated campsites. This is a primary dispersed roadside option despite occasional campground naming.",
+          "rules": {
+            "sleeping": "Only at posted numbered Forest Service sites; area entrance and Forsythe trailhead parking are not established sleeping positions.",
+            "stay": "14 consecutive days; 28 days in a 60-day period.",
+            "fee": "No required fees.",
+            "reservation": "First come, first served; cannot reserve. No live vacancy feed.",
+            "vehicle": "High clearance recommended; remain on routes open to the vehicle class.",
+            "fires": "Only agency-installed rings, subject to current fire restrictions; no fire permission inferred from sleeping permission.",
+            "construction": "Sites27–31 can have temporary roughly one-hour blasting closures. Gross Reservoir expansion can cause other intermittent closures."
+          },
+          "validity": {"order": "ARP-BRD-2023-02", "start": "2023-05-12", "end": "2028-05-12", "pageUpdated": "2026-09-23"},
+          "operatingStatus": {
+            "asOf": "2026-11-25",
+            "recommendation": "eligible designated-site area; current access needs freshness caveat",
+            "publishedRoadStatus": "OPEN in USFS table updated2026-11-02",
+            "mvumPassengerSeason": "05/15-11/30 for359.1 and359.1A/P/T",
+            "limitation": "Denver Water describes typical access mid-May to mid-November/no winter vehicle access. November25 is inside MVUM season but after typical closure wording; do not promise gate open tonight or sites vacant."
+          },
+          "sourceUrls": [
+            "https://www.fs.usda.gov/r02/arp/recreation/winiger-ridge",
+            "https://www.fs.usda.gov/r02/arp/conditions",
+            "https://www.fs.usda.gov/sites/nfs/files/r02/arp/publication/alerts/WR68JDesignatedDispersedCampingOrder.pdf",
+            "https://www.denverwater.org/recreation/gross-resevoir",
+            "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1"
+          ]
+        }
+      ],
+      "rejected": [
+        {"name": "Gross Reservoir Denver Water day-use parking", "reason": "Public use sunrise–sunset; parked unattended vehicles prohibited sunset–sunrise. Winiger's designated-site exception does not authorize sleeping in general reservoir parking.", "sourceUrl": "https://www.denverwater.org/recreation/gross-resevoir"},
+        {"name": "Jeffco Open Space trailhead parking / White Ranch and Reynolds permits", "reason": "Overnight vehicle camping prohibited outside permitted designated areas; current camping permits are explicitly tent-only and exclude vehicles, trailers and RVs.", "sourceUrls": ["https://www.jeffco.us/1583/Regulations", "https://www.jeffco.us/1512/Permits-Reservations"]},
+        {"name": "West Magnolia", "reason": "Older EDW area marker is30.93 miles straight-line from the Denver center, outside this case's30-mile discovery boundary. Do not silently expand the radius. Also marked-site-only; old EDW November–May closure text conflicts with newer current road table OPEN asofNovember2, so preserve source dates."},
+        {"name": "Gordon Gulch", "reason": "32.93 miles straight-line from Denver center, outside radius;15 numbered sites only, not unrestricted road shoulders."}
+      ],
+      "expected": "Find Winiger even though EDW's markeractivity is Intermediate Parent Group. Show designated roadside primary, source-backed summary, area-marker scope, seasonal access dates/status date, no vacancy promise. Do not green all surrounding roads, Denver Water lots, or Jeffco trailheads."
+    },
+    {
+      "id": "glenwood-white-river-i70",
+      "center": {"name": "Glenwood Springs", "lat": 39.5505, "lon": -107.3248},
+      "candidates": [],
+      "backupCandidates": [
+        {
+          "sourceId": "blm-thompson-creek",
+          "name": "Thompson Creek Campground",
+          "lat": 39.32292,
+          "lon": -107.2824,
+          "scope": "official BLM campground marker; backup only",
+          "carEvidence": "BLM gives road directions to four sites with metal fire rings; no tables or restrooms. It remains an actual campground, therefore is not promoted as the user's preferred roadside option.",
+          "rules": {"fee": "No fee", "stay": "April–August7days; September–March14days", "waste": "Pack out all human waste and trash.", "vehicle": "Access not recommended in wet or snowy conditions.", "reservation": "Live vacancy not verified."},
+          "validity": {"sourceRetrieved": "2026-11-25", "publisherUpdated": null},
+          "operatingStatus": {"recommendation": "backup, vehicle access unverified tonight", "limitation": "No current surface/gate status on the BLM page; November winter conditions matter."},
+          "sourceUrls": ["https://www.blm.gov/visit/thompson-creek-campground", "https://www.blm.gov/sites/blm.gov/files/documents/files/Thompson_Crkl_20170809.pdf"]
+        }
+      ],
+      "rejected": [
+        {"name": "Fourmile Road beyond Black Hills/William's Peak winter gate", "reason": "Car access closed beyond milepost2.7, November20,2026–May20,2027; snowmobile access is not car access.", "sourceUrl": "https://www.fs.usda.gov/r02/whiteriver/alerts/fourmile-road-winter-gate-closure-black-hills-williams-peak-parking"},
+        {"name": "Coffee Pot Road / Deep Lake generalized forest-road recommendation", "reason": "Road inventory and general forest camping policy do not identify an exact lawful car position. Deep Lake campground/day-use quarter-mile restriction under2025-09 plus water/trail100-foot2026-13 restriction must be spatially excluded. No verified pullout located in this bounded audit.", "sourceUrls": ["https://www.fs.usda.gov/r02/whiteriver/alerts/eagle-holy-cross-ranger-district-occupancy-and-use", "https://www.fs.usda.gov/r02/whiteriver/alerts/white-river-national-forest-camp-location-restrictions"]},
+        {"name": "Glenwood parks", "reason": "Camping requires a permit; ordinary park parking is not a permitted overnight option.", "sourceUrl": "https://www.glenwoodrec.com/239/Park-Rules-Regulations"},
+        {"name": "Bocco Mountain Trailhead", "reason": "Official BLM entry says day use, despite a recreation-area camping activity icon. Also outside30-mile radius.", "sourceUrl": "https://www.blm.gov/visit/bocco-mountain"}
+      ],
+      "expected": "Report an honest coverage gap: no independently verified exact primary roadside sleeping candidate within30 miles from this audit. Campgrounds are backups. Never convert all White River roads into approved car-sleeping points. Surface current water/trail, corridor restrictions and winter gate evidence."
+    },
+    {
+      "id": "crested-butte-gunnison",
+      "center": {"name": "Crested Butte", "lat": 38.8697, "lon": -106.9878},
+      "candidates": [
+        {
+          "sourceId": "usfs-gmug-musicians-camp-site-group",
+          "name": "Slate River · Musicians Camp MC1–17 designated roadside sites",
+          "lat": 38.931864,
+          "lon": -107.050176,
+          "scope": "site-group symbol derived from official georeferenced map; approximate200m accuracy, NOT an individual parking pad",
+          "coordinateSource": "Official Slate River GeoPDF dated2024-04-04, embedded /VP main-map geographic control points. Manual symbol-center georeferencing documented in research/audit-rockies/slate-river-derived-site-groups.json.",
+          "carEvidence": "USFS says designated sites are vehicle-accessible outside developed campground facilities, and explicitly lists MC1–17 as accommodating larger vehicles. These count as the user's preferred designated roadside option.",
+          "rules": {"sleeping": "Only Forest Service numbered posts with universal camping symbols. Unnumbered nearby pullouts are forbidden within the order boundary.", "stay": "Maximum14days; leaving property unattended over24hours prohibited.", "reservation": "First come, first served. No live availability feed.", "fee": "No fee amount stated for MC sites on the current official page; Gothic G1–14 explicitly require fees. Do not invent a fee claim.", "vehicle": "Do not go beyond designated parking; upper road sections can require high-clearance4WD. MC1–17 is one listed area suitable for larger vehicles.", "waste": "Pack out trash; no potable water. Current USFS page lists restroom facilities at Musicians Camp.", "fires": "Only provided metal rings, subject to current fire restrictions."},
+          "validity": {"order": "GMUG-2022-10", "start": "2022-06-14", "end": "2027-06-30", "pageUpdated": "2026-03-12", "mapDate": "2024-04-04"},
+          "operatingStatus": {"recommendation": "permitted numbered-site group; winter car access unverified", "asOf": "2026-11-25", "limitation": "No current Slate River gate/snow status or individual site occupancy verified. Do not label available tonight."},
+          "sourceUrls": ["https://www.fs.usda.gov/r02/gmug/recreation/designated-camping-crested-butte", "https://www.fs.usda.gov/r02/gmug/alerts/crested-butte-area-camping-and-fire-prohibitions", "https://www.fs.usda.gov/media/65319"]
+        },
+        {
+          "sourceId": "usfs-82739",
+          "name": "Horse Ranch Park dispersed area",
+          "lat": 38.863,
+          "lon": -107.161,
+          "scope": "official EDW dispersed-area marker, not a precise car parking pad",
+          "carEvidence": "Current Forest Service page describes dispersed camping in the meadow beside CountyRoad12 and gives driving directions11miles west from Crested Butte. Explicit car-sleeping wording not found; area classification and drive access establish a useful candidate, not unrestricted parking throughout meadow.",
+          "rules": {"fee": "No fee", "stay": "7days", "reservation": "EDW: first come, first served; no reservations", "water": "No potable water"},
+          "validity": {"pageUpdated": "2026-08-06"},
+          "operatingStatus": {"recommendation": "seasonal dispersed-area candidate; winter access unverified", "limitation": "Official seasons field saysJune; county's latest indexed pass alert isMay2026opening, not proof of lateNovemberpass condition."},
+          "sourceUrls": ["https://www.fs.usda.gov/r02/gmug/recreation/horse-ranch-park-dispersed-paonia-rd", "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_RecreationOpportunities_01/MapServer/0", "https://www.gunnisoncounty.org/AlertCenter.aspx?CID=7"]
+        }
+      ],
+      "rejected": [
+        {"name": "Unnumbered Slate River / Washington Gulch / Brush Creek pullouts", "reason": "Inside GMUG-2022-10's described area, camping only in agency numbered designated sites or three named developed campgrounds. A generic forest rule cannot turn these pullouts green.", "sourceUrl": "https://www.fs.usda.gov/r02/gmug/alerts/crested-butte-area-camping-and-fire-prohibitions"},
+        {"name": "Pearl Pass dispersed sites as an easy nearby ordinary-car option", "reason": "EDW explicitly high-clearance required/4WD recommended,5-daylimit; straight-line proximity across a high pass is not a practical drive-time claim. No November car access confirmed."},
+        {"name": "Lake Irwin developed campground as primary", "reason": "Developed campground is backup, with modernization-related closures requiring separate current check."}
+      ],
+      "expected": "Find the agency's designated roadside groups missing from EDW inventory; distinguish an approximate group marker from an individual legal pad. Summarize numbered-only restriction and14-daylimit without asking user to read local rules. No available-tonight claim without winter access verification. Horse Ranch is a second seasonal candidate with7-daylimit, not a reason to green allKeblerRoad."
+    }
+  ]
+}

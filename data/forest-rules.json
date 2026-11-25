@@ -6,6 +6,7 @@
     "summary": "Overnight stays outside the specifically exempt areas are prohibited.",
     "vehicleRule": "An open road or parking space does not authorize sleeping in the car. Forest Order 19-24-05 lists the exempt areas and limits and runs through December 1, 2027. Those exceptions are not fully digitized here.",
     "exceptions": [
+      "One vehicle-relevant exception is within 300 feet of the specified McKinney\u2013Rubicon Springs Road 14N34 segment, excluding locations within a quarter mile of developed facilities. Its exact segment/boundaries are not yet digitized; it is not permission along every road named Rubicon.",
       "Use only the exempt locations in Exhibits A and B and comply with their stay limits.",
       "Order effective June 28, 2024 through December 1, 2027; later orders may replace it."
     ],
@@ -144,6 +145,7 @@
     "summary": "The published guidance does not clearly settle sleeping inside a roadside car.",
     "vehicleRule": "Parking is limited to one vehicle length from a designated road, but camps are required to be at least 200 feet from roads. Those two instructions do not establish a yes for sleeping in the parked car; this map therefore marks it unknown.",
     "exceptions": [
+      "Mt. Shasta Upper Ski Bowl: overnight parking prohibited midnight\u20136 a.m. under Order 14-26-09.",
       "No dispersed camping at Lewiston Lake or in the Mt. Shasta plantations area.",
       "Other exclusions include restricted nesting areas and mapped no-camping zones.",
       "Published guidance also separates camps from developed sites, trailheads, private property and state highways."
@@ -156,6 +158,10 @@
       {
         "label": "Forest dispersed-camping leaflet",
         "url": "https://www.fs.usda.gov/media/134306"
+      },
+      {
+        "label": "Current forest orders, including 14-26-09",
+        "url": "https://www.fs.usda.gov/r05/shasta-trinity/alerts"
       }
     ],
     "mvumUrl": "https://www.fs.usda.gov/r05/shasta-trinity/maps-guides",
@@ -400,11 +406,13 @@
     "name": "White River National Forest",
     "match": "white river",
     "summary": "Roadside dispersed camping is permitted, with designated-site-only exceptions in some areas.",
-    "vehicleRule": "Use an already impacted site within 300 feet of the road centerline, at least 100 feet from water. General limit: 14 days per 30 days, then move outside a 20-mile radius. Some areas instead require designated sites or a seven-day limit.",
+    "vehicleRule": "Use an already impacted site within 300 feet of the road centerline, outside water, wetland and trail setbacks. Order 2026-13 prohibits camping within 100 feet of any water body, wetland or National Forest System trail except developed/designated sites. General limit: 14 days per 30 days, then move outside a 20-mile radius.",
     "exceptions": [
-      "Some locations restrict dispersed camping to designated sites or seven-day stays.",
-      "Unless otherwise noted, maximum 14 days within 30 days, then relocate outside a 20-mile radius.",
-      "Site-specific regulations, current orders and seasonal access override general guidance."
+      "Order 2026-13 runs July 1, 2026 through December 31, 2028. Developed or designated campsites are exceptions to its 100-foot water/wetland/trail setback.",
+      "Eagle/Holy Cross: campground/day-use quarter-mile restriction at Deep Lake and trailhead quarter-mile restriction at Grizzly Creek under 2025-09.",
+      "Sopris: quarter-mile corridors along Highway 133 and FSR 310, plus Sunlight/Babbish restrictions under 2025-08.",
+      "Fourmile Road beyond the Black Hills/William\u2019s Peak winter gate is closed to cars November 20, 2026 through May 20, 2027.",
+      "Some locations require designated sites or a seven-day limit. Exact exclusion geometry is not complete here."
     ],
     "sources": [
       {
@@ -414,6 +422,18 @@
       {
         "label": "Current MVUM and seasonal maps",
         "url": "https://www.fs.usda.gov/r02/whiteriver/maps-guides"
+      },
+      {
+        "label": "Current water, wetland and trail setbacks (2026-13)",
+        "url": "https://www.fs.usda.gov/r02/whiteriver/alerts/white-river-national-forest-camp-location-restrictions"
+      },
+      {
+        "label": "Eagle/Holy Cross corridor restrictions",
+        "url": "https://www.fs.usda.gov/r02/whiteriver/alerts/eagle-holy-cross-ranger-district-occupancy-and-use"
+      },
+      {
+        "label": "Fourmile winter gate dates",
+        "url": "https://www.fs.usda.gov/r02/whiteriver/alerts/fourmile-road-winter-gate-closure-black-hills-williams-peak-parking"
       }
     ],
     "mvumUrl": "https://www.fs.usda.gov/r02/whiteriver/maps-guides",

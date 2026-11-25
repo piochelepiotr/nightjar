@@ -1,0 +1,253 @@
+{
+  "date": "2026-11-25T21:00:33.223Z",
+  "url": "https://piochelepiotr.github.io/nightjar/",
+  "cases": [
+    {
+      "id": "yosemite",
+      "name": "Yosemite Valley",
+      "center": {
+        "lat": 37.7459,
+        "lon": -119.5937
+      },
+      "count": "1 places in view",
+      "firstResults": [
+        {
+          "id": "ca-66",
+          "text": "ROADSIDE REST\nCrestview Safety Roadside Rest Area Nb & Sb\n\nCaltrans\n\n☆\nTime-limited rest\n34 mi from map center"
+        }
+      ],
+      "status": "79 road segments in the center ¼° cell · camping rules on click"
+    },
+    {
+      "id": "mono",
+      "name": "Lee Vining",
+      "center": {
+        "lat": 37.956,
+        "lon": -119.12
+      },
+      "count": "1 places in view",
+      "firstResults": [
+        {
+          "id": "ca-66",
+          "text": "ROADSIDE REST\nCrestview Safety Roadside Rest Area Nb & Sb\n\nCaltrans\n\n☆\nTime-limited rest\n18 mi from map center"
+        }
+      ],
+      "status": "547 road segments in the center ¼° cell · camping rules on click"
+    },
+    {
+      "id": "truckee",
+      "name": "Truckee",
+      "center": {
+        "lat": 39.3279,
+        "lon": -120.1833
+      },
+      "count": "5 places in view",
+      "firstResults": [
+        {
+          "id": "usfs-11775",
+          "text": "DISPERSED CAMPING\nMt. Watson 73E\n\nLake Tahoe Basin Management Unit\n\n☆\nCamping listed · car access unverified\n8 mi from map center"
+        },
+        {
+          "id": "ca-22",
+          "text": "ROADSIDE REST\nDonner Summit Safety Roadside Rest Area - Eb\n\nCaltrans\n\n☆\nTime-limited rest\n8 mi from map center"
+        },
+        {
+          "id": "ca-23",
+          "text": "ROADSIDE REST\nDonner Summit Safety Roadside Rest Area - Wb\n\nCaltrans\n\n☆\nTime-limited rest\n8 mi from map center"
+        },
+        {
+          "id": "ca-27",
+          "text": "ROADSIDE REST\nGold Run Safety Roadside Rest Area - Eb\n\nCaltrans\n\n☆\nTime-limited rest\n37 mi from map center"
+        },
+        {
+          "id": "ca-28",
+          "text": "ROADSIDE REST\nGold Run Safety Roadside Rest Area - Wb\n\nCaltrans\n\n☆\nTime-limited rest\n37 mi from map center"
+        }
+      ],
+      "status": "5 source records in view · Click a road or check a roadside spot"
+    },
+    {
+      "id": "redding",
+      "name": "Redding",
+      "center": {
+        "lat": 40.5865,
+        "lon": -122.3917
+      },
+      "count": "8 places in view",
+      "firstResults": [
+        {
+          "id": "blmp-66485",
+          "text": "DISPERSED CAMPING\nBohemotash\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n15 mi from map center"
+        },
+        {
+          "id": "ca-86",
+          "text": "ROADSIDE REST\nO'Brien Safety Roadside Rest Area - Nb\n\nCaltrans\n\n☆\nTime-limited rest\n15 mi from map center"
+        },
+        {
+          "id": "ca-82",
+          "text": "ROADSIDE REST\nHerbert S. Miles Safety Roadside Rest Area - Sb\n\nCaltrans\n\n☆\nTime-limited rest\n23 mi from map center"
+        },
+        {
+          "id": "ca-15",
+          "text": "ROADSIDE REST\nLakehead Safety Roadside Rest Area - Sb\n\nCaltrans\n\n☆\nTime-limited rest\n23 mi from map center"
+        },
+        {
+          "id": "ca-10",
+          "text": "ROADSIDE REST\nHerbert S. Miles Safety Roadside Rest Area - Nb\n\nCaltrans\n\n☆\nTime-limited rest\n24 mi from map center"
+        }
+      ],
+      "status": "17 road segments in the center ¼° cell · camping rules on click"
+    },
+    {
+      "id": "moab",
+      "name": "Moab",
+      "center": {
+        "lat": 38.5733,
+        "lon": -109.5498
+      },
+      "count": "17 places in view",
+      "firstResults": [
+        {
+          "id": "blmp-67093",
+          "text": "DISPERSED CAMPING\nCowskin Camping Area\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n21 mi from map center"
+        },
+        {
+          "id": "blmp-90168",
+          "text": "DISPERSED CAMPING\nDolores River Camp 10\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n34 mi from map center"
+        },
+        {
+          "id": "blmp-79498",
+          "text": "DISPERSED CAMPING\nDolores River Camp 9\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n34 mi from map center"
+        },
+        {
+          "id": "blmp-90167",
+          "text": "DISPERSED CAMPING\nDolores River Camp 7\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n36 mi from map center"
+        },
+        {
+          "id": "blmp-90196",
+          "text": "DISPERSED CAMPING\nDolores River Camp 8\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n36 mi from map center"
+        }
+      ],
+      "status": "2 road segments in the center ¼° cell · camping rules on click"
+    },
+    {
+      "id": "flagstaff",
+      "name": "Flagstaff",
+      "center": {
+        "lat": 35.1983,
+        "lon": -111.6513
+      },
+      "count": "2 places in view",
+      "firstResults": [
+        {
+          "id": "usfs-82550",
+          "text": "DISPERSED CAMPING\nWing Mountain Dispersed Camping\n\nCoconino National Forest Recreation\n\n☆\nCamping listed · car access unverified\n7 mi from map center"
+        },
+        {
+          "id": "usfs-81580",
+          "text": "DISPERSED CAMPING\nPumphouse Wash (FR 237) Dispersed Camping Area\n\nCoconino National Forest Recreation\n\n☆\nCamping listed · car access unverified\n11 mi from map center"
+        }
+      ],
+      "status": "177 road segments in the center ¼° cell · camping rules on click"
+    },
+    {
+      "id": "vegas",
+      "name": "Las Vegas",
+      "center": {
+        "lat": 36.1699,
+        "lon": -115.1398
+      },
+      "count": "0 places in view",
+      "firstResults": [],
+      "status": "0 road segments in the center ¼° cell · camping rules on click"
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "center": {
+        "lat": 39.7392,
+        "lon": -104.9903
+      },
+      "count": "3 places in view",
+      "firstResults": [
+        {
+          "id": "usfs-28366",
+          "text": "DISPERSED CAMPING\nWest Magnolia Trailhead\n\nArapaho & Roosevelt National Forests Pawnee NG\n\n☆\nCamping listed · car access unverified\n31 mi from map center"
+        },
+        {
+          "id": "usfs-28272",
+          "text": "DISPERSED CAMPING\nGordon Gulch Dispersed Camping Area\n\nArapaho & Roosevelt National Forests Pawnee NG\n\n☆\nCamping listed · car access unverified\n33 mi from map center"
+        },
+        {
+          "id": "usfs-28226",
+          "text": "DISPERSED CAMPING\nCaribou Dispersed Camping Area\n\nArapaho & Roosevelt National Forests Pawnee NG\n\n☆\nCamping listed · car access unverified\n35 mi from map center"
+        }
+      ],
+      "status": "0 road segments in the center ¼° cell · camping rules on click"
+    },
+    {
+      "id": "glenwood",
+      "name": "Glenwood Springs",
+      "center": {
+        "lat": 39.55,
+        "lon": -107.3248
+      },
+      "count": "48 places in view",
+      "firstResults": [
+        {
+          "id": "blmp-90231",
+          "text": "DISPERSED CAMPING\nTiki Mine Camp\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n15 mi from map center"
+        },
+        {
+          "id": "blmp-90229",
+          "text": "DISPERSED CAMPING\nTiki Mine Camp\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n15 mi from map center"
+        },
+        {
+          "id": "blmp-80278",
+          "text": "DISPERSED CAMPING\nWest Elk Ridge Camp\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n18 mi from map center"
+        },
+        {
+          "id": "blmp-80307",
+          "text": "DISPERSED CAMPING\nWest Elk Ridge Camp\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n18 mi from map center"
+        },
+        {
+          "id": "blmp-80267",
+          "text": "DISPERSED CAMPING\nWest Elk Ridge Camp\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n18 mi from map center"
+        }
+      ],
+      "status": "29 road segments in the center ¼° cell · camping rules on click"
+    },
+    {
+      "id": "crested-butte",
+      "name": "Crested Butte",
+      "center": {
+        "lat": 38.8697,
+        "lon": -106.9884
+      },
+      "count": "52 places in view",
+      "firstResults": [
+        {
+          "id": "usfs-82739",
+          "text": "DISPERSED CAMPING\nHorse Ranch Park (Dispersed)-Paonia RD\n\nGrand Mesa, Uncompahgre and Gunnison National Fore\n\n☆\nCamping listed · car access unverified\n9 mi from map center"
+        },
+        {
+          "id": "blmp-89994",
+          "text": "DISPERSED CAMPING\nMill Creek North Dispersed Camping Site\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n12 mi from map center"
+        },
+        {
+          "id": "usfs-40527",
+          "text": "DISPERSED CAMPING\nPearl Pass Dispersed Camping\n\nWhite River National Forest\n\n☆\nCamping listed · car access unverified\n13 mi from map center"
+        },
+        {
+          "id": "blmp-67914",
+          "text": "DISPERSED CAMPING\nWilliams Creek Dispersed Camping Area\n\nBureau of Land Management\n\n☆\nCamping listed · car access unverified\n20 mi from map center"
+        },
+        {
+          "id": "usfs-40507",
+          "text": "DISPERSED CAMPING\nLincoln Creek Dispersed Camping\n\nWhite River National Forest\n\n☆\nCamping listed · car access unverified\n23 mi from map center"
+        }
+      ],
+      "status": "44 road segments in the center ¼° cell · camping rules on click"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+[
+  {
+    "id": "blm-273833",
+    "name": "McCabe Flat Campground \u2014 drive-up sites only (fallback)",
+    "lat": 37.59659,
+    "lon": -120.00349,
+    "kind": "campground",
+    "agency": "Bureau of Land Management",
+    "source": "reviewed agency evidence",
+    "url": "https://www.blm.gov/visit/mccabe-flat-campground",
+    "sourceUrl": "https://www.blm.gov/visit/mccabe-flat-campground",
+    "permission": "unverified",
+    "status": "Access / occupancy not live verified",
+    "rules": "Reserve a compatible drive-up campsite; current Merced River overview says reservations are required and same-day bookings may be available. No dispersed camping within the Merced River corridor. Drive-up inventory must be distinguished from walk-in/tent-only inventory. Campground is a fallback outside the preferred non-campground scope.",
+    "review": {
+      "scope": "Developed campground \u00b7 drive-up sites only",
+      "headline": "Campground fallback \u00b7 compatible vehicle site required",
+      "summary": "Official BLM description distinguishes two drive-up campsites from eight walk-in campsites. This establishes vehicle access to selected sites, not permission to sleep in the common parking lot or any walk-in site.",
+      "rules": [
+        "Reserve a compatible drive-up campsite; current Merced River overview says reservations are required and same-day bookings may be available.",
+        "No dispersed camping within the Merced River corridor.",
+        "Drive-up inventory must be distinguished from walk-in/tent-only inventory.",
+        "Campground is a fallback outside the preferred non-campground scope."
+      ],
+      "access": "Official material describes year-round operation. Current facility operation and a compatible drive-up reservation have not been confirmed. Some older agency pages still say first come, first served; the current Merced River overview requires reservations.",
+      "checkedAt": "2026-11-25",
+      "expiresAt": null,
+      "sources": [
+        "https://www.blm.gov/visit/mccabe-flat-campground",
+        "https://www.blm.gov/visit/merced-river",
+        "https://www.blm.gov/sites/default/files/docs/2023-05/Merced_River_Recreation_Area_Business_Plan_2023_508.pdf",
+        "https://www.recreation.gov/camping/campgrounds/273833"
+      ]
+    },
+    "recId": "273833",
+    "booking": "https://www.recreation.gov/camping/campgrounds/273833",
+    "reservation": "Reservation required \u00b7 compatible drive-up site only"
+  },
+  {
+    "id": "reviewed-inyo-01N11",
+    "name": "01N11 / 120\u20131S35 Connect \u2014 east-side forest-road scouting corridor",
+    "lat": 37.91402177451219,
+    "lon": -119.04656990290476,
+    "kind": "dispersed",
+    "agency": "US Forest Service",
+    "source": "reviewed agency evidence",
+    "url": "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1",
+    "sourceUrl": "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1",
+    "permission": "unverified",
+    "status": "Access / occupancy not live verified",
+    "rules": "County no-dispersed-camping, LADWP and wilderness layers returned no hit at this precise road vertex. Do not drive off-road to camp; use an existing cleared durable surface at least 200 feet from water. 14 consecutive days at one location/10-mile radius; 28 days per calendar year forest-wide under Order 05-04-50-25-17. A source road vertex is a corridor reference, not an approved pullout. Ordinary-car suitability is not established by legal MVUM access.",
+    "review": {
+      "scope": "Forest-road scouting corridor \u00b7 no exact pullout verified",
+      "headline": "Camping area identified \u00b7 exact car position unresolved",
+      "summary": "Current MVUM explicitly lists passenger vehicles open yearlong, but also maintenance level 2/high-clearance. Inyo guidance supports dispersed camping outside restricted areas and requires staying on established roads; it does not identify this vertex as a sleeping/parking space.",
+      "rules": [
+        "County no-dispersed-camping, LADWP and wilderness layers returned no hit at this precise road vertex.",
+        "Do not drive off-road to camp; use an existing cleared durable surface at least 200 feet from water.",
+        "14 consecutive days at one location/10-mile radius; 28 days per calendar year forest-wide under Order 05-04-50-25-17.",
+        "A source road vertex is a corridor reference, not an approved pullout. Ordinary-car suitability is not established by legal MVUM access."
+      ],
+      "access": "MVUM lists passenger vehicles year-round, but the road maintenance class is high-clearance. No exact pullout or current snow/ground-condition confirmation was established. The SR 120 winter closure concerns the west/Tioga section, not all of SR 120 East.",
+      "checkedAt": "2026-11-25",
+      "expiresAt": "2027-07-03",
+      "sources": [
+        "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1",
+        "https://www.fs.usda.gov/r05/inyo/recreation/camping-cabins",
+        "https://www.fs.usda.gov/r05/inyo/alerts/stay-limits-parking-and-developed-recreation-site-use",
+        "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/0",
+        "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/2",
+        "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/3",
+        "https://roads.dot.ca.gov/roadscell.php?roadnumber=120"
+      ]
+    }
+  },
+  {
+    "id": "blm-moab-dubinky-designated-corridor",
+    "name": "Dubinky Well Road \u2014 marked primitive camping sites",
+    "lat": 38.62894,
+    "lon": -109.801845,
+    "kind": "dispersed",
+    "agency": "Bureau of Land Management",
+    "source": "reviewed agency evidence",
+    "url": "https://www.blm.gov/programs/recreation/recreation-activities/utah",
+    "sourceUrl": "https://www.blm.gov/programs/recreation/recreation-activities/utah",
+    "permission": "unverified",
+    "status": "Access / occupancy not live verified",
+    "rules": "Use only a brown-post/tent-symbol designated primitive site; do not camp at the coordinate simply because it marks road access. Official BLM camping map identifies designated primitive sites as free; separate paid Lone Mesa Group Sites are not this recommendation. No ordinary overnight permit stated in reviewed Moab sources. 14 days at one location, then relocate at least 30 miles. Carry out solid human waste; portable toilet required where no constructed toilet provided. Road access reference is about 21.6 miles from Moab; USU describes 2WD on main routes, high-clearance / 4WD on secondary routes. No general passenger-car guarantee for every marked site. No woodcutting or gathering; obey current fire restrictions.",
+    "review": {
+      "scope": "Marked-site search corridor \u00b7 marker is road access",
+      "headline": "Designated camping area \u00b7 exact parking position unresolved",
+      "summary": "Official BLM maps describe designated primitive sites, posted parking boundaries and vehicle travel; public-road permission does not permit arbitrary roadside sleeping.",
+      "rules": [
+        "Use only a brown-post/tent-symbol designated primitive site; do not camp at the coordinate simply because it marks road access.",
+        "Official BLM camping map identifies designated primitive sites as free; separate paid Lone Mesa Group Sites are not this recommendation.",
+        "No ordinary overnight permit stated in reviewed Moab sources.",
+        "14 days at one location, then relocate at least 30 miles.",
+        "Carry out solid human waste; portable toilet required where no constructed toilet provided.",
+        "Road access reference is about 21.6 miles from Moab; USU describes 2WD on main routes, high-clearance / 4WD on secondary routes. No general passenger-car guarantee for every marked site.",
+        "No woodcutting or gathering; obey current fire restrictions."
+      ],
+      "access": "No closure found in reviewed current policy sources; per-site occupancy and road-condition availability unknown.",
+      "checkedAt": "2026-11-25",
+      "expiresAt": null,
+      "sources": [
+        "https://www.blm.gov/programs/recreation/recreation-activities/utah",
+        "https://www.blm.gov/sites/default/files/docs/2025-09/BLMUtahMoabVisitorMap-North_112124_508.pdf",
+        "https://www.blm.gov/sites/blm.gov/files/BLMUtahMoabCamping.pdf",
+        "https://www.usu.edu/ucc/files/2025/welcome-packets-and-gear-lists/2025-Moab-Housing-Resources.pdf"
+      ]
+    }
+  },
+  {
+    "id": "usfs-70996",
+    "name": "Cinder Hills Off Highway Vehicle Area",
+    "lat": 35.328054,
+    "lon": -111.523053,
+    "kind": "dispersed",
+    "agency": "US Forest Service",
+    "source": "reviewed agency evidence",
+    "url": "https://www.fs.usda.gov/r03/coconino/recreation/cinder-hills-highway-vehicle-area",
+    "sourceUrl": "https://www.fs.usda.gov/r03/coconino/recreation/cinder-hills-highway-vehicle-area",
+    "permission": "unverified",
+    "status": "Access / occupancy not live verified",
+    "rules": "Use the designated motorized recreation/camping area beyond any posted no-camping entrance area; no individual pad invented. No fee stated on current official page; do not label a paid campground. No ordinary overnight camping permit is stated on the current official page. 14 days in any consecutive 30 days under order 03-04-00-26-08. 13 miles northeast of downtown Flagstaff, reached by FR 776 from US 89. The November 23 road status lists FR 776 open. Loose cinders and rough roads mean passenger-car access is not guaranteed everywhere. No potable water. No glass containers. Nearby Sunset Crater National Monument and Strawberry Crater Wilderness closed to OHV travel.",
+    "review": {
+      "scope": "Vehicle camping area \u00b7 marker is an area reference",
+      "headline": "Camping area identified \u00b7 exact car position unresolved",
+      "summary": "Official live USFS page lists OHV Camping and vehicle access via FR776; official2025travel map identifies Cinder Hills as designated motorized open area. The general forest-road camping rule is not used as sole evidence.",
+      "rules": [
+        "Use the designated motorized recreation/camping area beyond any posted no-camping entrance area; no individual pad invented.",
+        "No fee stated on current official page; do not label a paid campground.",
+        "No ordinary overnight camping permit is stated on the current official page.",
+        "14 days in any consecutive 30 days under order 03-04-00-26-08.",
+        "13 miles northeast of downtown Flagstaff, reached by FR 776 from US 89. The November 23 road status lists FR 776 open. Loose cinders and rough roads mean passenger-car access is not guaranteed everywhere.",
+        "No potable water.",
+        "No glass containers. Nearby Sunset Crater National Monument and Strawberry Crater Wilderness closed to OHV travel."
+      ],
+      "access": "Official site open and FR 776 open; no availability/occupancy guarantee.",
+      "checkedAt": "2026-11-25",
+      "expiresAt": null,
+      "sources": [
+        "https://www.fs.usda.gov/r03/coconino/recreation/cinder-hills-highway-vehicle-area",
+        "https://www.fs.usda.gov/r03/coconino/conditions/forest-roads-status",
+        "https://www.fs.usda.gov/r03/coconino/alerts/14-day-camping-limit-consecutive-30-day-period-0",
+        "https://www.fs.usda.gov/sites/nfs/files/r03/coconino/publication/2025-travel-map.pdf",
+        "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_RecreationOpportunities_01/MapServer/0"
+      ]
+    }
+  },
+  {
+    "id": "usfs-84034",
+    "name": "West Sedona \u2014 eight designated dispersed camping areas",
+    "lat": 34.814265,
+    "lon": -111.905162,
+    "kind": "dispersed",
+    "agency": "US Forest Service",
+    "source": "reviewed agency evidence",
+    "url": "https://www.fs.usda.gov/r03/coconino/recreation/west-sedona-designated-dispersed-camping-area",
+    "sourceUrl": "https://www.fs.usda.gov/r03/coconino/recreation/west-sedona-designated-dispersed-camping-area",
+    "permission": "unverified",
+    "status": "Access / occupancy not live verified",
+    "rules": "Camp only inside one of the eight designated areas; arbitrary FR 525 roadside pullouts prohibited within the wider order area. Free. No reservation required; first come, first served. 14 days; the forestwide limit of 14 days in any 30 days also applies. FR 525 between SR 89A and FR 152C was listed open November 23. This does not guarantee every inner spur is suitable for a passenger car. No wood or charcoal fires at any time; LPG stoves and grills with an on/off control are permitted. No potable water.",
+    "review": {
+      "scope": "Eight designated areas \u00b7 marker is an area reference",
+      "headline": "Designated camping area \u00b7 exact parking position unresolved",
+      "summary": "USFS signed-order exhibit locates roadside dispersed areas Rockview, Angel Valley, Javelina, Surprise, Windmill, Cockscomb, Greasy Spoon, Nolan along FR 525/89B/152A system; these named areas are express camping-ban exceptions.",
+      "rules": [
+        "Camp only inside one of the eight designated areas; arbitrary FR 525 roadside pullouts prohibited within the wider order area.",
+        "Free.",
+        "No reservation required; first come, first served.",
+        "14 days; the forestwide limit of 14 days in any 30 days also applies.",
+        "FR 525 between SR 89A and FR 152C was listed open November 23. This does not guarantee every inner spur is suitable for a passenger car.",
+        "No wood or charcoal fires at any time; LPG stoves and grills with an on/off control are permitted.",
+        "No potable water."
+      ],
+      "access": "The official recreation page says Site Open; FR 525 is open. The November Red Rock flood alert does not list this site as closed.",
+      "checkedAt": "2026-11-25",
+      "expiresAt": null,
+      "sources": [
+        "https://www.fs.usda.gov/r03/coconino/recreation/west-sedona-designated-dispersed-camping-area",
+        "https://www.fs.usda.gov/r03/coconino/alerts/west-sedona-camping-and-campfire-restrictions-0",
+        "https://www.fs.usda.gov/r03/coconino/conditions/forest-roads-status",
+        "https://services1.arcgis.com/gGHDlz6USftL5Pau/arcgis/rest/services/r03_ForestOrder/FeatureServer/1"
+      ]
+    },
+    "fee": "Free",
+    "reservation": "First come, first served \u00b7 vacancy unknown"
+  },
+  {
+    "id": "blm-jean-roach-dry-lakes",
+    "name": "Jean/Roach Dry Lakes \u2014 BLM dispersed recreation area",
+    "lat": 35.804889,
+    "lon": -115.274255,
+    "kind": "dispersed",
+    "agency": "Bureau of Land Management",
+    "source": "reviewed agency evidence",
+    "url": "https://www.blm.gov/visit/jeanroach-dry-lakebed-special-recreation-management-area",
+    "sourceUrl": "https://www.blm.gov/visit/jeanroach-dry-lakebed-special-recreation-management-area",
+    "permission": "unverified",
+    "status": "Access / occupancy not live verified",
+    "rules": "Dispersed camping is an official listed use of this recreation area. No camping fee stated on official page; not independently verified as a zero-dollar fee. No ordinary overnight permit is stated on the official page. 14 days in any 28 days; then people and property must relocate outside a 25-mile radius, or to land not managed by BLM, for 14 days. Official directions place this area about 26 miles south of Las Vegas: I-15 Sloan exit 25 to Las Vegas Boulevard, then Knight Ranch Road. Outside the dry lakebed use existing roads and trails only. After precipitation the lakebed may retain deep water for a long time. BLM advises against driving on it after rain. Ground conditions are separate from camping permission.",
+    "review": {
+      "scope": "Dispersed recreation area \u00b7 marker is an area reference",
+      "headline": "Camping area identified \u00b7 exact car position unresolved",
+      "summary": "BLM lists dispersed camping as an activity, publishes coordinates and driving directions, and distinguishes motorized travel on the lakebed from existing roads and trails outside it.",
+      "rules": [
+        "Dispersed camping is an official listed use of this recreation area.",
+        "No camping fee stated on official page; not independently verified as a zero-dollar fee.",
+        "No ordinary overnight permit is stated on the official page.",
+        "14 days in any 28 days; then people and property must relocate outside a 25-mile radius, or to land not managed by BLM, for 14 days.",
+        "Official directions place this area about 26 miles south of Las Vegas: I-15 Sloan exit 25 to Las Vegas Boulevard, then Knight Ranch Road. Outside the dry lakebed use existing roads and trails only.",
+        "After precipitation the lakebed may retain deep water for a long time. BLM advises against driving on it after rain. Ground conditions are separate from camping permission."
+      ],
+      "access": "The official page lists dispersed camping. Current ground conditions and occupancy are unknown; no closure was identified on the reviewed page.",
+      "checkedAt": "2026-11-25",
+      "expiresAt": null,
+      "sources": [
+        "https://www.blm.gov/visit/jeanroach-dry-lakebed-special-recreation-management-area",
+        "https://www.blm.gov/southern-nevada-district-recreation"
+      ]
+    }
+  },
+  {
+    "id": "usfs-28368",
+    "name": "Winiger Ridge designated roadside sites",
+    "lat": 39.949348,
+    "lon": -105.371605,
+    "kind": "dispersed",
+    "agency": "US Forest Service",
+    "source": "reviewed agency evidence",
+    "url": "https://www.fs.usda.gov/r02/arp/recreation/winiger-ridge",
+    "sourceUrl": "https://www.fs.usda.gov/r02/arp/recreation/winiger-ridge",
+    "permission": "unverified",
+    "status": "Access / occupancy not live verified",
+    "rules": "Only at posted numbered Forest Service sites; area entrance and Forsythe trailhead parking are not established sleeping positions. 14 consecutive days; 28 days in a 60-day period. No required fees. First come, first served; cannot reserve. No live vacancy feed. High clearance recommended; remain on routes open to the vehicle class. Only agency-installed rings, subject to current fire restrictions; no fire permission inferred from sleeping permission. Sites27\u201331 can have temporary roughly one-hour blasting closures. Gross Reservoir expansion can cause other intermittent closures.",
+    "review": {
+      "scope": "Numbered roadside sites \u00b7 marker is area entrance",
+      "headline": "Designated camping area \u00b7 exact parking position unresolved",
+      "summary": "USFS explicitly permits overnight use at designated sites reached by seasonal NFSR359 and recommends high clearance. Denver Water directions tell visitors to drive CR359 to designated campsites. This is a primary dispersed roadside option despite occasional campground naming.",
+      "rules": [
+        "Only at posted numbered Forest Service sites; area entrance and Forsythe trailhead parking are not established sleeping positions.",
+        "14 consecutive days; 28 days in a 60-day period.",
+        "No required fees.",
+        "First come, first served; cannot reserve. No live vacancy feed.",
+        "High clearance recommended; remain on routes open to the vehicle class.",
+        "Only agency-installed rings, subject to current fire restrictions; no fire permission inferred from sleeping permission.",
+        "Sites27\u201331 can have temporary roughly one-hour blasting closures. Gross Reservoir expansion can cause other intermittent closures."
+      ],
+      "access": "The USFS table updated November 2 lists the road open, and MVUM allows passenger vehicles May 15\u2013November 30. Denver Water describes typical vehicle access mid-May to mid-November with no winter access. These sources do not resolve whether the gate is open tonight. High clearance is recommended; no live vacancy feed.",
+      "checkedAt": "2026-11-25",
+      "expiresAt": "2028-05-12",
+      "sources": [
+        "https://www.fs.usda.gov/r02/arp/recreation/winiger-ridge",
+        "https://www.fs.usda.gov/r02/arp/conditions",
+        "https://www.fs.usda.gov/sites/nfs/files/r02/arp/publication/alerts/WR68JDesignatedDispersedCampingOrder.pdf",
+        "https://www.denverwater.org/recreation/gross-resevoir",
+        "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1"
+      ]
+    },
+    "fee": "No required fees",
+    "reservation": "First come, first served \u00b7 vacancy unknown"
+  },
+  {
+    "id": "usfs-gmug-musicians-camp-site-group",
+    "name": "Slate River \u00b7 Musicians Camp MC1\u201317 designated roadside sites",
+    "lat": 38.931864,
+    "lon": -107.050176,
+    "kind": "dispersed",
+    "agency": "US Forest Service",
+    "source": "reviewed agency evidence",
+    "url": "https://www.fs.usda.gov/r02/gmug/recreation/designated-camping-crested-butte",
+    "sourceUrl": "https://www.fs.usda.gov/r02/gmug/recreation/designated-camping-crested-butte",
+    "permission": "unverified",
+    "status": "Access / occupancy not live verified",
+    "rules": "Only Forest Service numbered posts with universal camping symbols. Unnumbered nearby pullouts are forbidden within the order boundary. Maximum 14 days; leaving property unattended over 24 hours prohibited. First come, first served. No live availability feed. No fee amount stated for MC sites on the current official page; Gothic G1\u201314 explicitly require fees. Do not invent a fee claim. Do not go beyond designated parking; upper road sections can require high-clearance 4WD. MC1\u201317 is one listed area suitable for larger vehicles. Pack out trash; no potable water. Current USFS page lists restroom facilities at Musicians Camp. Only provided metal rings, subject to current fire restrictions.",
+    "review": {
+      "scope": "Numbered-site group \u00b7 approximate location (200 m)",
+      "headline": "Designated camping area \u00b7 exact parking position unresolved",
+      "summary": "USFS says designated sites are vehicle-accessible outside developed campground facilities, and explicitly lists MC1\u201317 as accommodating larger vehicles. These count as the user's preferred designated roadside option.",
+      "rules": [
+        "Only Forest Service numbered posts with universal camping symbols. Unnumbered nearby pullouts are forbidden within the order boundary.",
+        "Maximum 14 days; leaving property unattended over 24 hours prohibited.",
+        "First come, first served. No live availability feed.",
+        "No fee amount stated for MC sites on the current official page; Gothic G1\u201314 explicitly require fees. Do not invent a fee claim.",
+        "Do not go beyond designated parking; upper road sections can require high-clearance 4WD. MC1\u201317 is one listed area suitable for larger vehicles.",
+        "Pack out trash; no potable water. Current USFS page lists restroom facilities at Musicians Camp.",
+        "Only provided metal rings, subject to current fire restrictions."
+      ],
+      "access": "Designated roadside camping is permitted at numbered sites. No current Slate River gate/snow status or individual vacancy was verified. This approximate group marker is not an available-tonight claim.",
+      "checkedAt": "2026-11-25",
+      "expiresAt": "2027-06-30",
+      "sources": [
+        "https://www.fs.usda.gov/r02/gmug/recreation/designated-camping-crested-butte",
+        "https://www.fs.usda.gov/r02/gmug/alerts/crested-butte-area-camping-and-fire-prohibitions",
+        "https://www.fs.usda.gov/media/65319"
+      ]
+    },
+    "reservation": "First come, first served \u00b7 vacancy unknown"
+  },
+  {
+    "id": "usfs-82739",
+    "name": "Horse Ranch Park dispersed area",
+    "lat": 38.863,
+    "lon": -107.161,
+    "kind": "dispersed",
+    "agency": "US Forest Service",
+    "source": "reviewed agency evidence",
+    "url": "https://www.fs.usda.gov/r02/gmug/recreation/horse-ranch-park-dispersed-paonia-rd",
+    "sourceUrl": "https://www.fs.usda.gov/r02/gmug/recreation/horse-ranch-park-dispersed-paonia-rd",
+    "permission": "unverified",
+    "status": "Access / occupancy not live verified",
+    "rules": "No fee 7 days EDW: first come, first served; no reservations No potable water",
+    "review": {
+      "scope": "Seasonal dispersed area \u00b7 marker is an area reference",
+      "headline": "Camping area identified \u00b7 exact car position unresolved",
+      "summary": "Current Forest Service page describes dispersed camping in the meadow beside County Road 12 and gives driving directions 11 miles west from Crested Butte. Explicit car-sleeping wording not found; area classification and drive access establish a useful candidate, not unrestricted parking throughout meadow.",
+      "rules": [
+        "No fee",
+        "7 days",
+        "EDW: first come, first served; no reservations",
+        "No potable water"
+      ],
+      "access": "Seasonal dispersed-camping area; November car access is unverified. The official season field says June. An earlier May pass-opening notice does not establish late-November conditions.",
+      "checkedAt": "2026-11-25",
+      "expiresAt": null,
+      "sources": [
+        "https://www.fs.usda.gov/r02/gmug/recreation/horse-ranch-park-dispersed-paonia-rd",
+        "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_RecreationOpportunities_01/MapServer/0",
+        "https://www.gunnisoncounty.org/AlertCenter.aspx?CID=7"
+      ]
+    },
+    "fee": "No fee",
+    "reservation": "First come, first served \u00b7 vacancy unknown"
+  },
+  {
+    "id": "reviewed-thompson-creek",
+    "name": "Thompson Creek Campground",
+    "lat": 39.32292,
+    "lon": -107.2824,
+    "kind": "campground",
+    "agency": "Bureau of Land Management",
+    "source": "reviewed agency evidence",
+    "url": "https://www.blm.gov/visit/thompson-creek-campground",
+    "sourceUrl": "https://www.blm.gov/visit/thompson-creek-campground",
+    "permission": "unverified",
+    "status": "Winter access unverified",
+    "review": {
+      "scope": "Developed campground \u00b7 backup",
+      "headline": "Campground backup \u00b7 winter access unverified",
+      "summary": "BLM gives road directions to four sites with metal fire rings; no tables or restrooms. It remains an actual campground, therefore is not promoted as the user's preferred roadside option.",
+      "rules": [
+        "No fee.",
+        "April\u2013August: 7-day limit. September\u2013March: 14-day limit.",
+        "Pack out all human waste and trash.",
+        "Vehicle access is not recommended in wet or snowy conditions.",
+        "No live vacancy information."
+      ],
+      "access": "backup, vehicle access unverified tonight No current surface/gate status on the BLM page; November winter conditions matter.",
+      "checkedAt": "2026-11-25",
+      "sources": [
+        "https://www.blm.gov/visit/thompson-creek-campground",
+        "https://www.blm.gov/sites/blm.gov/files/documents/files/Thompson_Crkl_20170809.pdf"
+      ]
+    },
+    "fee": "No fee"
+  }
+]

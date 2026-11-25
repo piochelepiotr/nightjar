@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
 permissions:
   contents: read
   pages: write
@@ -23,6 +25,17 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Refresh official roadside operating status
+        run: node scripts/refresh-rest-status.mjs
+      - name: Preserve source evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-evidence-${{ github.run_id }}
+          path: |
+            .cache/sources/
+            data/caltrans-status.json
+          include-hidden-files: true
+          retention-days: 30
       - run: npm test
       - run: npm run build:pages
       - uses: actions/configure-pages@v5

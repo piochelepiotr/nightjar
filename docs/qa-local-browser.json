@@ -1,0 +1,506 @@
+{
+  "checkedAt": "2026-11-25T21:12:10.910Z",
+  "target": "http://127.0.0.1:8027",
+  "cases": [
+    {
+      "id": "california-yosemite-el-portal",
+      "name": "Yosemite Valley / El Portal (El Portal anchor)",
+      "lat": 37.6743,
+      "lon": -119.784,
+      "count": 0,
+      "cards": [],
+      "reviewed": [
+        {
+          "id": "blm-273833",
+          "name": "McCabe Flat Campground — drive-up sites only (fallback)",
+          "permission": "unverified",
+          "scope": "campground_fallback"
+        },
+        {
+          "id": "ca-66",
+          "name": "Crestview Safety Roadside Rest Area Nb & Sb",
+          "permission": "closed",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-68",
+          "name": "John \" Chuck\" Erreca Safety Roadside Rest Area - Nb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-69",
+          "name": "John \" Chuck\" Erreca Safety Roadside Rest Area - Sb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "reviewed-inyo-01N11",
+          "name": "01N11 / 120–1S35 Connect — east-side forest-road scouting corridor",
+          "permission": "unverified",
+          "scope": "forest_road_corridor"
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "california-mono-lee-vining",
+      "name": "Mono Lake / Lee Vining",
+      "lat": 37.9576,
+      "lon": -119.1195,
+      "count": 1,
+      "cards": [
+        {
+          "id": "reviewed-inyo-01N11",
+          "text": "DISPERSED CAMPING\n01N11 / 120–1S35 Connect — east-side forest-road scouting corridor\n\nUS Forest Service\n\n☆\nResearched area · exact spot unresolved\n5 mi straight-line\n\nforest_road_corridor"
+        }
+      ],
+      "reviewed": [
+        {
+          "id": "blm-273833",
+          "name": "McCabe Flat Campground — drive-up sites only (fallback)",
+          "permission": "unverified",
+          "scope": "campground_fallback"
+        },
+        {
+          "id": "ca-66",
+          "name": "Crestview Safety Roadside Rest Area Nb & Sb",
+          "permission": "closed",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "reviewed-inyo-01N11",
+          "name": "01N11 / 120–1S35 Connect — east-side forest-road scouting corridor",
+          "permission": "unverified",
+          "scope": "forest_road_corridor"
+        }
+      ],
+      "detail": {
+        "text": "Back to places\nDispersed camping\n01N11 / 120–1S35 Connect — east-side forest-road scouting corridor\n\nUS Forest Service\n\nCamping area identified · exact car position unresolved\n☆ Save this stop\nDirections\nforest_road_corridor\n\nCurrent MVUM explicitly lists passenger vehicles open yearlong, but also maintenance level 2/high-clearance. Inyo guidance supports dispersed camping outside restricted areas and requires staying on established roads; it does not identify this vertex as a sleeping/parking space.\n\nCounty no-dispersed-camping, LADWP and wilderness layers returned no hit at this precise road vertex.\nDo not drive off-road to camp; use an existing cleared durable surface at least 200 feet from water.\n14 consecutive days at one location/10-mile radius; 28 days per calendar year forest-wide under Order 05-04-50-25-17.\nA source road vertex is a corridor reference, not an approved pullout. Ordinary-car suitability is not established by legal MVUM access.\nCan I reach it / is there space?\n\nnot_live_verified 01/01-12/31 2 - HIGH CLEARANCE VEHICLES No precise pullout or current snow/ground-condition confirmation. Caltrans SR120 winter closure report affects the west/Tioga section, not a blanket closure of SR120 East.\n\nUnoccupied space is unknown unless a reservation check below reports inventory.\n\nRules researched 2026-11-25 · order ends 2027-07-03\n\nOfficial location / policy\nEvidence 2\nEvidence 3\nEvidence 4\nEvidence 5\nEvidence 6\nEvidence 7\nFEE\nNot established\nSEASON / STATUS\nAccess / occupancy not live verified\nRESERVATIONS\nNot established\nCOORDINATES\n37.91402, -119.04657\nEvidence & freshness\n\nreviewed agency evidence\n\nSource fetched: 11/25/2026, 1:00:00 PM\nOperating conditions are verified only where a separate dated status check is shown above.\n\nOriginal source\nSource dataset",
+        "links": [
+          "https://www.google.com/maps/dir/?api=1&destination=37.91402177451219,-119.04656990290476",
+          "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1",
+          "https://www.fs.usda.gov/r05/inyo/recreation/camping-cabins",
+          "https://www.fs.usda.gov/r05/inyo/alerts/stay-limits-parking-and-developed-recreation-site-use",
+          "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/0",
+          "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/2",
+          "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/3",
+          "https://roads.dot.ca.gov/roadscell.php?roadnumber=120",
+          "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1",
+          "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1"
+        ]
+      }
+    },
+    {
+      "id": "california-truckee-donner",
+      "name": "Truckee / Donner",
+      "lat": 39.32796,
+      "lon": -120.18325,
+      "count": 2,
+      "cards": [
+        {
+          "id": "ca-22",
+          "text": "ROADSIDE REST\nDonner Summit Safety Roadside Rest Area - Eb\n\nCaltrans\n\n☆\nCar rest permitted · 8h limit\n8 mi straight-line\n\nExact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-23",
+          "text": "ROADSIDE REST\nDonner Summit Safety Roadside Rest Area - Wb\n\nCaltrans\n\n☆\nCar rest permitted · 8h limit\n8 mi straight-line\n\nExact rest facility · directional highway access"
+        }
+      ],
+      "reviewed": [
+        {
+          "id": "ca-12",
+          "name": "Honey Lake Safety Roadside Rest Area - Nb & Sb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-13",
+          "name": "L.T. Davis Safety Roadside Rest Area - Eb & Wb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-14",
+          "name": "Lake Almanor Safety Roadside Rest Area - Eb & Wb",
+          "permission": "closed",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-16",
+          "name": "Massack Safety Roadside Rest Area - Eb & Wb",
+          "permission": "closed",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-22",
+          "name": "Donner Summit Safety Roadside Rest Area - Eb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-23",
+          "name": "Donner Summit Safety Roadside Rest Area - Wb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-27",
+          "name": "Gold Run Safety Roadside Rest Area - Eb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-28",
+          "name": "Gold Run Safety Roadside Rest Area - Wb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        }
+      ],
+      "detail": {
+        "text": "Back to places\nRoadside rest\nDonner Summit Safety Roadside Rest Area - Eb\n\nCaltrans\n\nCar rest permitted · maximum 8 hours per 24 hours\n☆ Save this stop\nDirections\nSource description\nExact rest facility · directional highway access\n\nCaltrans supports stopping to rest and take a nap. Camping is prohibited. Use automobile parking; the highway direction in the facility name matters.\n\nMaximum 8 hours in any 24-hour period.\nNo campground-style setup or extended camping.\nOpen facility status does not establish an empty parking bay.\nCan I reach it / is there space?\n\nOpen. Recent agency status check.\n\nUnoccupied space is unknown unless a reservation check below reports inventory.\n\nOperating source checked 11/25/2026, 1:07:39 PM · publisher update 11/25/2026, 1:06:54 PM · recent snapshot\n\nRules researched 2026-11-25\n\nOfficial location / policy\nEvidence 2\nEvidence 3\nFEE\nNot established\nSEASON / STATUS\nOPEN · Open\nRESERVATIONS\nNot established\nCOORDINATES\n39.34086, -120.33985\nEvidence & freshness\n\ncaltrans\n\nSource fetched: 11/25/2026, 11:53:05 AM\nOperating conditions are verified only where a separate dated status check is shown above.\n\nOriginal source\nSource dataset\nOfficial policy\nRecord permission or a prohibition",
+        "links": [
+          "https://www.google.com/maps/dir/?api=1&destination=39.34085523380519,-120.33984608389402",
+          "https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-h-safety-roadside-rest-areas",
+          "https://dot.ca.gov/-/media/dot-media/programs/design/documents/pdpm-chapter29-a11y.pdf",
+          "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-i-srra",
+          "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "https://dot.ca.gov/-/media/dot-media/programs/maintenance/documents/maintenance_manual_volume_1-combined_version_dec242024-final.pdf"
+        ]
+      }
+    },
+    {
+      "id": "california-redding-shasta",
+      "name": "Redding / Shasta",
+      "lat": 40.58654,
+      "lon": -122.39168,
+      "count": 4,
+      "cards": [
+        {
+          "id": "ca-82",
+          "text": "ROADSIDE REST\nHerbert S. Miles Safety Roadside Rest Area - Sb\n\nCaltrans\n\n☆\nCar rest permitted · 8h limit\n23 mi straight-line\n\nExact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-15",
+          "text": "ROADSIDE REST\nLakehead Safety Roadside Rest Area - Sb\n\nCaltrans\n\n☆\nCar rest permitted · 8h limit\n23 mi straight-line\n\nExact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-10",
+          "text": "ROADSIDE REST\nHerbert S. Miles Safety Roadside Rest Area - Nb\n\nCaltrans\n\n☆\nCar rest permitted · 8h limit\n24 mi straight-line\n\nExact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-17",
+          "text": "ROADSIDE REST\nMoon Lim Lee Safety Roadside Rest Area - Eb & W B\n\nCaltrans\n\n☆\nCar rest permitted · 8h limit\n29 mi straight-line\n\nExact rest facility · directional highway access"
+        }
+      ],
+      "reviewed": [
+        {
+          "id": "ca-8",
+          "name": "Lt. John C. Helmick Safety Roadside Rest Area - Nb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-10",
+          "name": "Herbert S. Miles Safety Roadside Rest Area - Nb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-11",
+          "name": "Hillcrest Safety Roadside Rest Area - Eb & Wb",
+          "permission": "closed",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-15",
+          "name": "Lakehead Safety Roadside Rest Area - Sb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-17",
+          "name": "Moon Lim Lee Safety Roadside Rest Area - Eb & W B",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-20",
+          "name": "Shingletown Safety Roadside Rest Area - Eb & Wb",
+          "permission": "closed",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-21",
+          "name": "Weed Airport Safety Roadside Rest Area - Nb",
+          "permission": "closed",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-31",
+          "name": "Willows Safety Roadside Rest Area - Nb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-32",
+          "name": "Willows Safety Roadside Rest Area - Sb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-82",
+          "name": "Herbert S. Miles Safety Roadside Rest Area - Sb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-83",
+          "name": "Lt. John C. Helmick Safety Roadside Rest Area - Sb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-84",
+          "name": "Weed Airport Safety Roadside Rest Area - Sb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-86",
+          "name": "O'Brien Safety Roadside Rest Area - Nb",
+          "permission": "closed",
+          "scope": "Exact rest facility · directional highway access"
+        }
+      ],
+      "detail": {
+        "text": "Back to places\nRoadside rest\nHerbert S. Miles Safety Roadside Rest Area - Sb\n\nCaltrans\n\nCar rest permitted · maximum 8 hours per 24 hours\n☆ Save this stop\nDirections\nSource description\nExact rest facility · directional highway access\n\nCaltrans supports stopping to rest and take a nap. Camping is prohibited. Use automobile parking; the highway direction in the facility name matters.\n\nMaximum 8 hours in any 24-hour period.\nNo campground-style setup or extended camping.\nOpen facility status does not establish an empty parking bay.\nCan I reach it / is there space?\n\nOpen. Recent agency status check.\n\nUnoccupied space is unknown unless a reservation check below reports inventory.\n\nOperating source checked 11/25/2026, 1:07:39 PM · publisher update 11/25/2026, 1:06:54 PM · recent snapshot\n\nRules researched 2026-11-25\n\nOfficial location / policy\nEvidence 2\nEvidence 3\nFEE\nNot established\nSEASON / STATUS\nOPEN · Open\nRESERVATIONS\nNot established\nCOORDINATES\n40.27040, -122.27034\nEvidence & freshness\n\ncaltrans\n\nSource fetched: 11/25/2026, 11:53:05 AM\nOperating conditions are verified only where a separate dated status check is shown above.\n\nOriginal source\nSource dataset\nOfficial policy\nRecord permission or a prohibition",
+        "links": [
+          "https://www.google.com/maps/dir/?api=1&destination=40.27040315206914,-122.2703395129296",
+          "https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-h-safety-roadside-rest-areas",
+          "https://dot.ca.gov/-/media/dot-media/programs/design/documents/pdpm-chapter29-a11y.pdf",
+          "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-i-srra",
+          "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "https://dot.ca.gov/-/media/dot-media/programs/maintenance/documents/maintenance_manual_volume_1-combined_version_dec242024-final.pdf"
+        ]
+      }
+    },
+    {
+      "id": "moab-ut",
+      "name": "Moab, Utah",
+      "lat": 38.5733,
+      "lon": -109.5498,
+      "count": 1,
+      "cards": [
+        {
+          "id": "blm-moab-dubinky-designated-corridor",
+          "text": "DISPERSED CAMPING\nDubinky Well Road — marked primitive camping sites\n\nBureau of Land Management\n\n☆\nResearched area · exact spot unresolved\n14 mi straight-line\n\ncorridor-search-area; coordinate is the road access reference, not an individual legal campsite"
+        }
+      ],
+      "reviewed": [
+        {
+          "id": "blm-moab-dubinky-designated-corridor",
+          "name": "Dubinky Well Road — marked primitive camping sites",
+          "permission": "unverified",
+          "scope": "corridor-search-area; coordinate is the road access reference, not an individual legal campsite"
+        }
+      ],
+      "detail": {
+        "text": "Back to places\nDispersed camping\nDubinky Well Road — marked primitive camping sites\n\nBureau of Land Management\n\nDesignated camping area · exact parking position unresolved\n☆ Save this stop\nDirections\ncorridor-search-area; coordinate is the road access reference, not an individual legal campsite\n\nOfficial BLM maps describe designated primitive sites, posted parking boundaries and vehicle travel; public-road permission does not permit arbitrary roadside sleeping.\n\nUse only a brown-post/tent-symbol designated primitive site; do not camp at the coordinate simply because it marks road access.\nOfficial BLM camping map identifies designated primitive sites as free; separate paid Lone Mesa Group Sites are not this recommendation.\nNo ordinary overnight permit stated in reviewed Moab sources.\n14 days at one location, then relocate at least 30 miles.\nCarry out solid human waste; portable toilet required where no constructed toilet provided.\nRoad access reference is about21.6miles from Moab; USU describes2WD on main routes, highclearance/4WD on secondary routes. No general passenger-car guarantee for every marked site.\nNo woodcutting or gathering; obey current fire restrictions.\nCan I reach it / is there space?\n\nNo closure found in reviewed current policy sources; per-site occupancy and road-condition availability unknown.\n\nUnoccupied space is unknown unless a reservation check below reports inventory.\n\nRules researched 2026-11-25\n\nOfficial location / policy\nEvidence 2\nEvidence 3\nEvidence 4\nFEE\nNot established\nSEASON / STATUS\nAccess / occupancy not live verified\nRESERVATIONS\nNot established\nCOORDINATES\n38.62894, -109.80185\nEvidence & freshness\n\nreviewed agency evidence\n\nSource fetched: 11/25/2026, 1:00:00 PM\nOperating conditions are verified only where a separate dated status check is shown above.\n\nOriginal source\nSource dataset",
+        "links": [
+          "https://www.google.com/maps/dir/?api=1&destination=38.62894,-109.801845",
+          "https://www.blm.gov/programs/recreation/recreation-activities/utah",
+          "https://www.blm.gov/sites/default/files/docs/2025-09/BLMUtahMoabVisitorMap-North_112124_508.pdf",
+          "https://www.blm.gov/sites/blm.gov/files/BLMUtahMoabCamping.pdf",
+          "https://www.usu.edu/ucc/files/2025/welcome-packets-and-gear-lists/2025-Moab-Housing-Resources.pdf",
+          "https://www.blm.gov/programs/recreation/recreation-activities/utah",
+          "https://www.blm.gov/programs/recreation/recreation-activities/utah"
+        ]
+      }
+    },
+    {
+      "id": "flagstaff-sedona-az",
+      "name": "Flagstaff, Arizona",
+      "lat": 35.1983,
+      "lon": -111.6513,
+      "count": 1,
+      "cards": [
+        {
+          "id": "usfs-70996",
+          "text": "DISPERSED CAMPING\nCinder Hills Off Highway Vehicle Area\n\nUS Forest Service\n\n☆\nResearched area · exact spot unresolved\n12 mi straight-line\n\nofficial recreation-area reference point; no claim that every acre or entrance pullout permits camping"
+        }
+      ],
+      "reviewed": [
+        {
+          "id": "usfs-70996",
+          "name": "Cinder Hills Off Highway Vehicle Area",
+          "permission": "unverified",
+          "scope": "official recreation-area reference point; no claim that every acre or entrance pullout permits camping"
+        },
+        {
+          "id": "usfs-84034",
+          "name": "West Sedona — eight designated dispersed camping areas",
+          "permission": "unverified",
+          "scope": "official reference point for eight named areas, not an exact campsite; separate Sedona subcase, farther than30roadmiles fromFlagstaff"
+        }
+      ],
+      "detail": {
+        "text": "Back to places\nDispersed camping\nCinder Hills Off Highway Vehicle Area\n\nUS Forest Service\n\nCamping area identified · exact car position unresolved\n☆ Save this stop\nDirections\nofficial recreation-area reference point; no claim that every acre or entrance pullout permits camping\n\nOfficial live USFS page lists OHV Camping and vehicle access via FR776; official2025travel map identifies Cinder Hills as designated motorized open area. The general forest-road camping rule is not used as sole evidence.\n\nUse the designated motorized recreation/camping area beyond any posted no-camping entrance area; no individual pad invented.\nNo fee stated on current official page; do not label a paid campground.\nNo ordinary overnight camping permit is stated on the current official page.\n14 days in any consecutive 30 days under order 03-04-00-26-08.\n13 miles northeast of downtown Flagstaff, reached by FR 776 from US 89. The November 23 road status lists FR 776 open. Loose cinders and rough roads mean passenger-car access is not guaranteed everywhere.\nNo potable water.\nNo glass containers. Nearby Sunset Crater National Monument and Strawberry Crater Wilderness closed to OHV travel.\nCan I reach it / is there space?\n\nOfficial siteOpen and FR776Open; no availability/occupancy guarantee.\n\nUnoccupied space is unknown unless a reservation check below reports inventory.\n\nRules researched 2026-11-25\n\nOfficial location / policy\nEvidence 2\nEvidence 3\nEvidence 4\nEvidence 5\nFEE\nNot established\nSEASON / STATUS\nAccess / occupancy not live verified\nRESERVATIONS\nNot established\nCOORDINATES\n35.32805, -111.52305\nEvidence & freshness\n\nreviewed agency evidence\n\nSource fetched: 11/25/2026, 1:00:00 PM\nOperating conditions are verified only where a separate dated status check is shown above.\n\nOriginal source\nSource dataset",
+        "links": [
+          "https://www.google.com/maps/dir/?api=1&destination=35.328054,-111.523053",
+          "https://www.fs.usda.gov/r03/coconino/recreation/cinder-hills-highway-vehicle-area",
+          "https://www.fs.usda.gov/r03/coconino/conditions/forest-roads-status",
+          "https://www.fs.usda.gov/r03/coconino/alerts/14-day-camping-limit-consecutive-30-day-period-0",
+          "https://www.fs.usda.gov/sites/nfs/files/r03/coconino/publication/2025-travel-map.pdf",
+          "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_RecreationOpportunities_01/MapServer/0",
+          "https://www.fs.usda.gov/r03/coconino/recreation/cinder-hills-highway-vehicle-area",
+          "https://www.fs.usda.gov/r03/coconino/recreation/cinder-hills-highway-vehicle-area"
+        ]
+      }
+    },
+    {
+      "id": "las-vegas-nv",
+      "name": "Las Vegas, Nevada",
+      "lat": 36.1147,
+      "lon": -115.1728,
+      "count": 1,
+      "cards": [
+        {
+          "id": "blm-jean-roach-dry-lakes",
+          "text": "DISPERSED CAMPING\nJean/Roach Dry Lakes — BLM dispersed recreation area\n\nBureau of Land Management\n\n☆\nResearched area · exact spot unresolved\n22 mi straight-line\n\nofficial recreation-area reference point; broad search area, not a surveyed individual pullout"
+        }
+      ],
+      "reviewed": [
+        {
+          "id": "ca-59",
+          "name": "Valley Wells Safety Roadside Rest Area - Eb",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "ca-60",
+          "name": "Valley Wells Safety Roadside Rest Area - Wb ",
+          "permission": "rest-supported",
+          "scope": "Exact rest facility · directional highway access"
+        },
+        {
+          "id": "blm-jean-roach-dry-lakes",
+          "name": "Jean/Roach Dry Lakes — BLM dispersed recreation area",
+          "permission": "unverified",
+          "scope": "official recreation-area reference point; broad search area, not a surveyed individual pullout"
+        }
+      ],
+      "detail": {
+        "text": "Back to places\nDispersed camping\nJean/Roach Dry Lakes — BLM dispersed recreation area\n\nBureau of Land Management\n\nCamping area identified · exact car position unresolved\n☆ Save this stop\nDirections\nofficial recreation-area reference point; broad search area, not a surveyed individual pullout\n\nBLM lists dispersed camping as an activity, publishes coordinates and driving directions, and distinguishes motorized travel on the lakebed from existing roads and trails outside it.\n\nDispersed camping is an official listed use of this recreation area.\nNo camping fee stated on official page; not independently verified as a zero-dollar fee.\nNo ordinary overnight permit is stated on the official page.\n14 days in any 28 days; then people and property must relocate outside a 25-mile radius, or to land not managed by BLM, for 14 days.\nOfficial directions place this area about 26 miles south of Las Vegas: I-15 Sloan exit 25 to Las Vegas Boulevard, then Knight Ranch Road. Outside the dry lakebed use existing roads and trails only.\nAfter precipitation the lakebed may retain deep water for a long time. BLM advises against driving on it after rain. Ground conditions are separate from camping permission.\nCan I reach it / is there space?\n\nThe official page lists dispersed camping. Current ground conditions and occupancy are unknown; no closure was identified on the reviewed page.\n\nUnoccupied space is unknown unless a reservation check below reports inventory.\n\nRules researched 2026-11-25\n\nOfficial location / policy\nEvidence 2\nFEE\nNot established\nSEASON / STATUS\nAccess / occupancy not live verified\nRESERVATIONS\nNot established\nCOORDINATES\n35.80489, -115.27425\nEvidence & freshness\n\nreviewed agency evidence\n\nSource fetched: 11/25/2026, 1:00:00 PM\nOperating conditions are verified only where a separate dated status check is shown above.\n\nOriginal source\nSource dataset",
+        "links": [
+          "https://www.google.com/maps/dir/?api=1&destination=35.804889,-115.274255",
+          "https://www.blm.gov/visit/jeanroach-dry-lakebed-special-recreation-management-area",
+          "https://www.blm.gov/southern-nevada-district-recreation",
+          "https://www.blm.gov/visit/jeanroach-dry-lakebed-special-recreation-management-area",
+          "https://www.blm.gov/visit/jeanroach-dry-lakebed-special-recreation-management-area"
+        ]
+      }
+    },
+    {
+      "id": "denver-front-range",
+      "name": "Denver",
+      "lat": 39.7392,
+      "lon": -104.9903,
+      "count": 1,
+      "cards": [
+        {
+          "id": "usfs-28368",
+          "text": "DISPERSED CAMPING\nWiniger Ridge designated roadside sites\n\nUS Forest Service\n\n☆\nResearched area · exact spot unresolved\n25 mi straight-line\n\nofficial area/entrance marker; NOT a numbered campsite or permission to sleep at this coordinate"
+        }
+      ],
+      "reviewed": [
+        {
+          "id": "usfs-28368",
+          "name": "Winiger Ridge designated roadside sites",
+          "permission": "unverified",
+          "scope": "official area/entrance marker; NOT a numbered campsite or permission to sleep at this coordinate"
+        }
+      ],
+      "detail": {
+        "text": "Back to places\nDispersed camping\nWiniger Ridge designated roadside sites\n\nUS Forest Service\n\nDesignated camping area · exact parking position unresolved\n☆ Save this stop\nDirections\nofficial area/entrance marker; NOT a numbered campsite or permission to sleep at this coordinate\n\nUSFS explicitly permits overnight use at designated sites reached by seasonal NFSR359 and recommends high clearance. Denver Water directions tell visitors to drive CR359 to designated campsites. This is a primary dispersed roadside option despite occasional campground naming.\n\nOnly at posted numbered Forest Service sites; area entrance and Forsythe trailhead parking are not established sleeping positions.\n14 consecutive days; 28 days in a 60-day period.\nNo required fees.\nFirst come, first served; cannot reserve. No live vacancy feed.\nHigh clearance recommended; remain on routes open to the vehicle class.\nOnly agency-installed rings, subject to current fire restrictions; no fire permission inferred from sleeping permission.\nSites27–31 can have temporary roughly one-hour blasting closures. Gross Reservoir expansion can cause other intermittent closures.\nCan I reach it / is there space?\n\n2026-11-25 eligible designated-site area; current access needs freshness caveat OPEN in USFS table updated2026-11-02 05/15-11/30 for359.1 and359.1A/P/T Denver Water describes typical access mid-May to mid-November/no winter vehicle access. November25 is inside MVUM season but after typical closure wording; do not promise gate open tonight or sites vacant.\n\nUnoccupied space is unknown unless a reservation check below reports inventory.\n\nRules researched 2026-11-25 · order ends 2028-05-12\n\nOfficial location / policy\nEvidence 2\nEvidence 3\nEvidence 4\nEvidence 5\nFEE\nNot established\nSEASON / STATUS\nAccess / occupancy not live verified\nRESERVATIONS\nNot established\nCOORDINATES\n39.94935, -105.37161\nEvidence & freshness\n\nreviewed agency evidence\n\nSource fetched: 11/25/2026, 1:00:00 PM\nOperating conditions are verified only where a separate dated status check is shown above.\n\nOriginal source\nSource dataset",
+        "links": [
+          "https://www.google.com/maps/dir/?api=1&destination=39.949348,-105.371605",
+          "https://www.fs.usda.gov/r02/arp/recreation/winiger-ridge",
+          "https://www.fs.usda.gov/r02/arp/conditions",
+          "https://www.fs.usda.gov/sites/nfs/files/r02/arp/publication/alerts/WR68JDesignatedDispersedCampingOrder.pdf",
+          "https://www.denverwater.org/recreation/gross-resevoir",
+          "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1",
+          "https://www.fs.usda.gov/r02/arp/recreation/winiger-ridge",
+          "https://www.fs.usda.gov/r02/arp/recreation/winiger-ridge"
+        ]
+      }
+    },
+    {
+      "id": "glenwood-white-river-i70",
+      "name": "Glenwood Springs",
+      "lat": 39.5505,
+      "lon": -107.3248,
+      "count": 0,
+      "cards": [],
+      "reviewed": [
+        {
+          "id": "usfs-82739",
+          "name": "Horse Ranch Park dispersed area",
+          "permission": "unverified",
+          "scope": "official EDW dispersed-area marker, not a precise car parking pad"
+        },
+        {
+          "id": "usfs-gmug-musicians-camp-site-group",
+          "name": "Slate River · Musicians Camp MC1–17 designated roadside sites",
+          "permission": "unverified",
+          "scope": "site-group symbol derived from official georeferenced map; approximate200m accuracy, NOT an individual parking pad"
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "crested-butte-gunnison",
+      "name": "Crested Butte",
+      "lat": 38.8697,
+      "lon": -106.9878,
+      "count": 2,
+      "cards": [
+        {
+          "id": "usfs-gmug-musicians-camp-site-group",
+          "text": "DISPERSED CAMPING\nSlate River · Musicians Camp MC1–17 designated roadside sites\n\nUS Forest Service\n\n☆\nResearched area · exact spot unresolved\n5 mi straight-line\n\nsite-group symbol derived from official georeferenced map; approximate200m accuracy, NOT an individual parking pad"
+        },
+        {
+          "id": "usfs-82739",
+          "text": "DISPERSED CAMPING\nHorse Ranch Park dispersed area\n\nUS Forest Service\n\n☆\nResearched area · exact spot unresolved\n9 mi straight-line\n\nofficial EDW dispersed-area marker, not a precise car parking pad"
+        }
+      ],
+      "reviewed": [
+        {
+          "id": "usfs-82739",
+          "name": "Horse Ranch Park dispersed area",
+          "permission": "unverified",
+          "scope": "official EDW dispersed-area marker, not a precise car parking pad"
+        },
+        {
+          "id": "usfs-gmug-musicians-camp-site-group",
+          "name": "Slate River · Musicians Camp MC1–17 designated roadside sites",
+          "permission": "unverified",
+          "scope": "site-group symbol derived from official georeferenced map; approximate200m accuracy, NOT an individual parking pad"
+        }
+      ],
+      "detail": {
+        "text": "Back to places\nDispersed camping\nSlate River · Musicians Camp MC1–17 designated roadside sites\n\nUS Forest Service\n\nDesignated camping area · exact parking position unresolved\n☆ Save this stop\nDirections\nsite-group symbol derived from official georeferenced map; approximate200m accuracy, NOT an individual parking pad\n\nUSFS says designated sites are vehicle-accessible outside developed campground facilities, and explicitly lists MC1–17 as accommodating larger vehicles. These count as the user's preferred designated roadside option.\n\nOnly Forest Service numbered posts with universal camping symbols. Unnumbered nearby pullouts are forbidden within the order boundary.\nMaximum14days; leaving property unattended over24hours prohibited.\nFirst come, first served. No live availability feed.\nNo fee amount stated for MC sites on the current official page; Gothic G1–14 explicitly require fees. Do not invent a fee claim.\nDo not go beyond designated parking; upper road sections can require high-clearance4WD. MC1–17 is one listed area suitable for larger vehicles.\nPack out trash; no potable water. Current USFS page lists restroom facilities at Musicians Camp.\nOnly provided metal rings, subject to current fire restrictions.\nCan I reach it / is there space?\n\npermitted numbered-site group; winter car access unverified 2026-11-25 No current Slate River gate/snow status or individual site occupancy verified. Do not label available tonight.\n\nUnoccupied space is unknown unless a reservation check below reports inventory.\n\nRules researched 2026-11-25 · order ends 2027-06-30\n\nOfficial location / policy\nEvidence 2\nEvidence 3\nFEE\nNot established\nSEASON / STATUS\nAccess / occupancy not live verified\nRESERVATIONS\nNot established\nCOORDINATES\n38.93186, -107.05018\nEvidence & freshness\n\nreviewed agency evidence\n\nSource fetched: 11/25/2026, 1:00:00 PM\nOperating conditions are verified only where a separate dated status check is shown above.\n\nOriginal source\nSource dataset",
+        "links": [
+          "https://www.google.com/maps/dir/?api=1&destination=38.931864,-107.050176",
+          "https://www.fs.usda.gov/r02/gmug/recreation/designated-camping-crested-butte",
+          "https://www.fs.usda.gov/r02/gmug/alerts/crested-butte-area-camping-and-fire-prohibitions",
+          "https://www.fs.usda.gov/media/65319",
+          "https://www.fs.usda.gov/r02/gmug/recreation/designated-camping-crested-butte",
+          "https://www.fs.usda.gov/r02/gmug/recreation/designated-camping-crested-butte"
+        ]
+      }
+    }
+  ]
+}

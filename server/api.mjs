@@ -1,13 +1,16 @@
 import {localFinding,publicLayers} from './local-evidence.mjs';
 import {restrictionsAt} from './spatial.mjs';
-import places from '../data/places.json' with {type:'json'};
+import sourcePlaces from '../data/places.json' with {type:'json'};
+import roadsideEvidence from '../data/roadside-evidence.json' with {type:'json'};
+import restStatus from '../data/caltrans-status.json' with {type:'json'};
+import {mergeEvidence} from './recommendations.mjs';
 import manifest from '../data/manifest.json' with {type:'json'};
 import forests from '../data/forests.json' with {type:'json'};
 import yosemite from '../data/yosemite.json' with {type:'json'};
 import rules from '../data/forest-rules.json' with {type:'json'};
 import {plain,point,roadCell,osmCell,parkingPermission,stayDates,availability,permission} from './core.mjs';
-const byId=new Map(places.map(p=>[p.id,p]));
-const compact=places.map(p=>({id:p.id,name:p.name,lat:p.lat,lon:p.lon,kind:p.kind,agency:p.agency,source:p.source,status:p.status,fee:p.fee?.slice(0,130),reservation:p.reservation?.slice(0,120),recId:p.recId,permission:permission(p)}));
+function currentPlaces(){return mergeEvidence(sourcePlaces,roadsideEvidence,restStatus)}
+const places=sourcePlaces;
 function ringContains(ring,x,y){let yes=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const a=ring[i],b=ring[j];if((a[1]>y)!==(b[1]>y)&&x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0])yes=!yes}return yes}
 function inYosemite(lat,lon){return yosemite.features.some(f=>(f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.coordinates).some(poly=>ringContains(poly[0],lon,lat)&&!poly.slice(1).some(r=>ringContains(r,lon,lat))))}
 const HOUR=3600000,DAY=24*HOUR;
@@ -17,10 +20,10 @@ const answer=(d,status=200)=>Response.json(d,{status,headers:{'Cache-Control':'n
 export async function api(request,cache){const u=new URL(request.url),q=u.searchParams;
  try{
  if(request.method!=='GET')return answer({error:'Method not allowed'},405);
- if(u.pathname==='/api/catalog')return answer({places:compact,manifest});
+ if(u.pathname==='/api/catalog')return answer({places:currentPlaces().map(p=>({id:p.id,name:p.name,lat:p.lat,lon:p.lon,kind:p.kind,agency:p.agency,source:p.source,status:p.status,fee:p.fee?.slice(0,130),reservation:p.reservation?.slice(0,120),recId:p.recId,review:p.review,operating:p.operating,permission:p.permission||permission(p)})),manifest});
  if(u.pathname==='/api/forests')return answer({forests,rules,yosemite});
  if(u.pathname==='/api/health')return answer({ok:true,places:places.length,cache:cache.stats});
- if(u.pathname.startsWith('/api/place/')){const p=byId.get(decodeURIComponent(u.pathname.slice(11)));return p?answer({...p,permission:permission(p)}):answer({error:'Place not found'},404)}
+ if(u.pathname.startsWith('/api/place/')){const p=currentPlaces().find(p=>p.id===decodeURIComponent(u.pathname.slice(11)));return p?answer({...p,permission:p.permission||permission(p)}):answer({error:'Place not found'},404)}
  if(u.pathname==='/api/availability'){
  const id=q.get('id');if(!/^\d{1,10}$/.test(id)||!places.some(p=>p.recId===id))throw Error('Unknown Recreation.gov campground');
  const date=q.get('date'),nights=Number(q.get('nights')||1),dates=stayDates(date,nights),months=[...new Set(dates.map(d=>d.slice(0,7)))];if(dates[0]<new Date().toISOString().slice(0,10)||Date.parse(dates.at(-1))>Date.now()+400*DAY)throw Error('Choose an arrival between today and the next 13 months.');

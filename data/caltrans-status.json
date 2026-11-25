@@ -1,0 +1,765 @@
+{
+  "sourceUrl": "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+  "checkedAt": "2026-11-25T21:07:39.929Z",
+  "lastModified": "Wed, 25 Nov 2026 21:06:54 GMT",
+  "etag": "\"4aea9-6612034e00eea-gzip\"",
+  "hash": "b5fd5c2a96333abcfeda84e40549631d57d544e7e53d4740ecf546deb7ef5914",
+  "records": [
+    {
+      "ctNo": "90100018",
+      "name": "Collier Tunnel Rest Area",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -123.747748,
+      "lat": 41.968493
+    },
+    {
+      "ctNo": "90100029",
+      "name": "Empire Camp Rest Area - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -123.59457,
+      "lat": 39.826613
+    },
+    {
+      "ctNo": "90100054",
+      "name": "Irvine Lodge Rest Area - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -123.449202,
+      "lat": 39.587174
+    },
+    {
+      "ctNo": "90100071",
+      "name": "Moss Cove Rest Area - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -123.425353,
+      "lat": 39.550374
+    },
+    {
+      "ctNo": "90100085",
+      "name": "FRANCIS B. MATHEWS REST AREA - Eastbound & Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -123.5471,
+      "lat": 40.8828
+    },
+    {
+      "ctNo": "90100095",
+      "name": "Trinidad Rest Area - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -124.149971,
+      "lat": 41.124818
+    },
+    {
+      "ctNo": "90100096",
+      "name": "Trinidad Rest Area - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -124.150647,
+      "lat": 41.091558
+    },
+    {
+      "ctNo": "90200041",
+      "name": "LT. JOHN C. HELMICK REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.1989,
+      "lat": 39.946
+    },
+    {
+      "ctNo": "90200072",
+      "name": "GRASS LAKE REST AREA - Northbound & Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.1671,
+      "lat": 41.6427
+    },
+    {
+      "ctNo": "90200086",
+      "name": "HERBERT S. MILES REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.2607,
+      "lat": 40.2516
+    },
+    {
+      "ctNo": "90200088",
+      "name": "HILLCREST REST AREA - Eastbound & Westbound",
+      "state": "closed",
+      "statusText": "Closed due to WINTER WEATHER CLOSURE Expected to re-open 05/03/2027 07:01 AM",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -121.8964,
+      "lat": 40.8642
+    },
+    {
+      "ctNo": "90200091",
+      "name": "HONEY LAKE REST AREA - Northbound & Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.4652,
+      "lat": 40.2563
+    },
+    {
+      "ctNo": "90200104",
+      "name": "L.T. DAVIS REST AREA - Eastbound & Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.4134,
+      "lat": 39.8236
+    },
+    {
+      "ctNo": "90200106",
+      "name": "LAKE ALMANOR REST AREA - Eastbound & Westbound",
+      "state": "closed",
+      "statusText": "Closed due to Rest Area Closure Expected to re-open 05/01/2027 08:01 AM",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -121.1625,
+      "lat": 40.3026
+    },
+    {
+      "ctNo": "90200107",
+      "name": "LAKEHEAD REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.3978,
+      "lat": 40.9175
+    },
+    {
+      "ctNo": "90200116",
+      "name": "MASSACK REST AREA - Eastbound & Westbound",
+      "state": "closed",
+      "statusText": "Closed due to WINTER WEATHER CLOSURE Expected to re-open 05/03/2027 07:01 AM",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.834,
+      "lat": 39.9233
+    },
+    {
+      "ctNo": "90200122",
+      "name": "MOON LIM LEE REST AREA - Eastbound & Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.943556,
+      "lat": 40.6664
+    },
+    {
+      "ctNo": "90200131",
+      "name": "O'BRIEN REST AREA - Northbound",
+      "state": "closed",
+      "statusText": "Closed due to Rest Area Closure No estimate for when facility will re-open.",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.3175,
+      "lat": 40.7936
+    },
+    {
+      "ctNo": "90200144",
+      "name": "RANDOLPH E. COLLIER REST AREA - Northbound & Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.5722,
+      "lat": 41.8524
+    },
+    {
+      "ctNo": "90200154",
+      "name": "SECRET VALLEY REST AREA - Northbound & Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.2607,
+      "lat": 40.6467
+    },
+    {
+      "ctNo": "90200160",
+      "name": "SHINGLETOWN REST AREA - Eastbound & Westbound",
+      "state": "closed",
+      "statusText": "Closed due to Seasonal Closure - Rest Area Expected to re-open 05/01/2027 07:01 AM",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -121.8326,
+      "lat": 40.5061
+    },
+    {
+      "ctNo": "90200199",
+      "name": "WEED AIRPORT REST AREA - Northbound",
+      "state": "closed",
+      "statusText": "Closed due to Maintenance Operation No estimate for when facility will re-open.",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.4548,
+      "lat": 41.4775
+    },
+    {
+      "ctNo": "90300040",
+      "name": "DONNER SUMMIT REST AREA - Eastbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.3398,
+      "lat": 39.3409
+    },
+    {
+      "ctNo": "90300041",
+      "name": "DONNER SUMMIT REST AREA - Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.3403,
+      "lat": 39.3428
+    },
+    {
+      "ctNo": "90300046",
+      "name": "DUNNIGAN REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -121.978407,
+      "lat": 38.892021
+    },
+    {
+      "ctNo": "90300047",
+      "name": "DUNNIGAN REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -121.9797,
+      "lat": 38.8922
+    },
+    {
+      "ctNo": "90300057",
+      "name": "ELKHORN REST AREA - Southbound AKA Vietnam Memorial",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -121.61046,
+      "lat": 38.672372
+    },
+    {
+      "ctNo": "90300065",
+      "name": "GOLD RUN REST AREA - Eastbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.8502,
+      "lat": 39.1805
+    },
+    {
+      "ctNo": "90300066",
+      "name": "GOLD RUN REST AREA - Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.855,
+      "lat": 39.1793
+    },
+    {
+      "ctNo": "90300087",
+      "name": "MAXWELL REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.1802,
+      "lat": 39.2408
+    },
+    {
+      "ctNo": "90300088",
+      "name": "MAXWELL REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.181896,
+      "lat": 39.241095
+    },
+    {
+      "ctNo": "90300155",
+      "name": "WILLOWS REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.209382,
+      "lat": 39.592223
+    },
+    {
+      "ctNo": "90300156",
+      "name": "WILLOWS REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.2104,
+      "lat": 39.5928
+    },
+    {
+      "ctNo": "90400035",
+      "name": "CRYSTAL SPRINGS REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.3643,
+      "lat": 37.5392
+    },
+    {
+      "ctNo": "90400065",
+      "name": "H. DANA BOWERS REST AREA & vista point - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.481856,
+      "lat": 37.832969
+    },
+    {
+      "ctNo": "90500011",
+      "name": "CAMP ROBERTS REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.7581,
+      "lat": 35.8313
+    },
+    {
+      "ctNo": "90500012",
+      "name": "CAMP ROBERTS REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.7697,
+      "lat": 35.8502
+    },
+    {
+      "ctNo": "90500017",
+      "name": "GAVIOTA REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.2287,
+      "lat": 34.485
+    },
+    {
+      "ctNo": "90500018",
+      "name": "GAVIOTA REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.2308,
+      "lat": 34.4839
+    },
+    {
+      "ctNo": "90500047",
+      "name": "SHANDON REST AREA - Eastbound & Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.3467,
+      "lat": 35.6752
+    },
+    {
+      "ctNo": "90600018",
+      "name": "BORON REST AREA - Eastbound",
+      "state": "closed",
+      "statusText": "Closed due to Emergency Work No estimate for when facility will re-open.",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -117.7186,
+      "lat": 35.0058
+    },
+    {
+      "ctNo": "90600019",
+      "name": "BORON REST AREA - Westbound",
+      "state": "closed",
+      "statusText": "Closed due to Emergency Work No estimate for when facility will re-open.",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -117.7193,
+      "lat": 35.0079
+    },
+    {
+      "ctNo": "90600020",
+      "name": "BUTTONWILLOW REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -119.4219,
+      "lat": 35.4187
+    },
+    {
+      "ctNo": "90600021",
+      "name": "BUTTONWILLOW REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -119.4245,
+      "lat": 35.4171
+    },
+    {
+      "ctNo": "90600025",
+      "name": "COALINGA-AVENAL REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.1132,
+      "lat": 36.0897
+    },
+    {
+      "ctNo": "90600026",
+      "name": "COALINGA-AVENAL REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.1166,
+      "lat": 36.0896
+    },
+    {
+      "ctNo": "90600067",
+      "name": "TEJON PASS REST AREA - Northbound",
+      "state": "closed",
+      "statusText": "Closed due to Rest Area Maintenance No estimate for when facility will re-open.",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -118.87,
+      "lat": 34.8257
+    },
+    {
+      "ctNo": "90600069",
+      "name": "PHILIP S. RAINE REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -119.3223,
+      "lat": 36.1078
+    },
+    {
+      "ctNo": "90600070",
+      "name": "PHILIP S. RAINE REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -119.3247,
+      "lat": 36.1084
+    },
+    {
+      "ctNo": "90600107",
+      "name": "C. H. WARLOW REST AREA - Northbound & Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -119.5207,
+      "lat": 36.4921
+    },
+    {
+      "ctNo": "90800046",
+      "name": "CACTUS CITY REST AREA - Eastbound",
+      "state": "closed",
+      "statusText": "Closed due to Highway Construction Expected to re-open 05/01/2027 12:01 AM",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -115.9653,
+      "lat": 33.6778
+    },
+    {
+      "ctNo": "90800047",
+      "name": "CACTUS CITY REST AREA - Westbound",
+      "state": "closed",
+      "statusText": "Closed due to Highway Construction Expected to re-open 05/01/2027 12:01 AM",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -115.9623,
+      "lat": 33.6787
+    },
+    {
+      "ctNo": "90800056",
+      "name": "CLYDE V. KANE REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -116.4702,
+      "lat": 35.0315
+    },
+    {
+      "ctNo": "90800057",
+      "name": "CLYDE V. KANE REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -116.4707,
+      "lat": 35.0346
+    },
+    {
+      "ctNo": "90800065",
+      "name": "DESERT OASIS REST AREA - Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -116.5212,
+      "lat": 34.8015
+    },
+    {
+      "ctNo": "90800074",
+      "name": "JOHN WILKIE REST AREA - Eastbound",
+      "state": "closed",
+      "statusText": "Closed due to Emergency Work No estimate for when facility will re-open.",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -115.2191,
+      "lat": 34.8081
+    },
+    {
+      "ctNo": "90800075",
+      "name": "JOHN WILKIE REST AREA - Westbound",
+      "state": "closed",
+      "statusText": "Closed due to Emergency Work No estimate for when facility will re-open.",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -115.2195,
+      "lat": 34.8105
+    },
+    {
+      "ctNo": "90800119",
+      "name": "VALLEY WELLS REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -115.6993,
+      "lat": 35.4336
+    },
+    {
+      "ctNo": "90800120",
+      "name": "VALLEY WELLS REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -115.7015,
+      "lat": 35.4359
+    },
+    {
+      "ctNo": "90800127",
+      "name": "WHITEWATER REST AREA - Eastbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -116.6639,
+      "lat": 33.9215
+    },
+    {
+      "ctNo": "90800128",
+      "name": "WHITEWATER REST AREA - Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -116.6641,
+      "lat": 33.9231
+    },
+    {
+      "ctNo": "90800129",
+      "name": "WILDWOOD REST AREA - Eastbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -117.0769,
+      "lat": 34.0121
+    },
+    {
+      "ctNo": "90800130",
+      "name": "WILEY'S WELL REST AREA - Eastbound & Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -114.9007,
+      "lat": 33.6104
+    },
+    {
+      "ctNo": "90900017",
+      "name": "COSO JUNCTION REST AREA - Northbound & Southbound",
+      "state": "closed",
+      "statusText": "Closed due to Emergency Work No estimate for when facility will re-open.",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -117.9463,
+      "lat": 36.0448
+    },
+    {
+      "ctNo": "90900020",
+      "name": "CRESTVIEW REST AREA - Northbound & Southbound",
+      "state": "closed",
+      "statusText": "Closed due to Winter Closure No estimate for when facility will re-open.",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -118.9693,
+      "lat": 37.7311
+    },
+    {
+      "ctNo": "90900023",
+      "name": "DIVISION CREEK REST AREA - Northbound & Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -118.2389,
+      "lat": 36.9457
+    },
+    {
+      "ctNo": "91000027",
+      "name": "HUNTER HILL REST AREA - Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.2175,
+      "lat": 38.1513
+    },
+    {
+      "ctNo": "91000030",
+      "name": "JOHN &quot;CHUCK&quot; ERRECA REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.7823,
+      "lat": 36.8646
+    },
+    {
+      "ctNo": "91000031",
+      "name": "JOHN &quot;CHUCK&quot; ERRECA REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.7838,
+      "lat": 36.8624
+    },
+    {
+      "ctNo": "91000078",
+      "name": "ENOCH CHRISTOFFERSEN REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.8266,
+      "lat": 37.4663
+    },
+    {
+      "ctNo": "91000079",
+      "name": "ENOCH CHRISTOFFERSEN REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -120.8276,
+      "lat": 37.4643
+    },
+    {
+      "ctNo": "91000082",
+      "name": "WESTLEY REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -121.3224,
+      "lat": 37.5839
+    },
+    {
+      "ctNo": "91000083",
+      "name": "WESTLEY REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -121.3236,
+      "lat": 37.5813
+    },
+    {
+      "ctNo": "91100003",
+      "name": "ALISO CREEK REST AREA - Northbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -117.4361,
+      "lat": 33.269
+    },
+    {
+      "ctNo": "91100004",
+      "name": "ALISO CREEK REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -117.4438,
+      "lat": 33.272
+    },
+    {
+      "ctNo": "91100012",
+      "name": "BUCKMAN SPRINGS REST AREA - Eastbound & Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -116.4839,
+      "lat": 32.758
+    },
+    {
+      "ctNo": "91100067",
+      "name": "SAND HILLS REST AREA - Eastbound & Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -114.8903,
+      "lat": 32.7374
+    },
+    {
+      "ctNo": "91100074",
+      "name": "SUNBEAM REST AREA - Eastbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -115.6699,
+      "lat": 32.7734
+    },
+    {
+      "ctNo": "91100075",
+      "name": "SUNBEAM REST AREA - Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -115.669,
+      "lat": 32.7747
+    },
+    {
+      "ctNo": "99900178",
+      "name": "HERBERT S. MILES REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.2703,
+      "lat": 40.2704
+    },
+    {
+      "ctNo": "99900228",
+      "name": "LT. JOHN C. HELMICK REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.2014,
+      "lat": 39.948
+    },
+    {
+      "ctNo": "99900230",
+      "name": "WEED AIRPORT REST AREA - Southbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -122.4568,
+      "lat": 41.4777
+    },
+    {
+      "ctNo": "99900235",
+      "name": "BOGARD REST AREA - Eastbound & Westbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -121.0901,
+      "lat": 40.5867
+    },
+    {
+      "ctNo": "99902875",
+      "name": "DESERT OASIS REST AREA - Eastbound",
+      "state": "open",
+      "statusText": "Open",
+      "reportedAt": "11/25/2026 1:06pm",
+      "lon": -116.5249,
+      "lat": 34.8002
+    }
+  ]
+}

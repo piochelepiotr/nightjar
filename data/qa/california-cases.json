@@ -1,0 +1,502 @@
+[
+  {
+    "id": "california-yosemite-el-portal",
+    "center": {
+      "name": "Yosemite Valley / El Portal (El Portal anchor)",
+      "lat": 37.6743,
+      "lon": -119.784
+    },
+    "searchRadiusMiles": 30,
+    "distanceConvention": "Straight-line discovery radius; no road-distance equivalence asserted.",
+    "date": "2026-11-25",
+    "vehicleAssumption": "Ordinary passenger car; no high-clearance/off-road capability assumed.",
+    "candidates": [
+      {
+        "sourceId": "blm:facility:273833",
+        "name": "McCabe Flat Campground — drive-up sites only (fallback)",
+        "lat": 37.59659,
+        "lon": -120.00349,
+        "scope": "campground_fallback",
+        "geometryEvidence": {
+          "source": "https://gis.blm.gov/arcgis/rest/services/Recreation/BLM_Natl_Recreation_Sites_Facilities/MapServer/8",
+          "facilityId": "273833",
+          "sourceUpdatedAt": "2026-07-19"
+        },
+        "carEvidence": "Official BLM description distinguishes two drive-up campsites from eight walk-in campsites. This establishes vehicle access to selected sites, not permission to sleep in the common parking lot or any walk-in site.",
+        "rules": [
+          "Reserve a compatible drive-up campsite; current Merced River overview says reservations are required and same-day bookings may be available.",
+          "No dispersed camping within the Merced River corridor.",
+          "Drive-up inventory must be distinguished from walk-in/tent-only inventory.",
+          "Campground is a fallback outside the preferred non-campground scope."
+        ],
+        "validity": {
+          "checkedAt": "2026-11-25",
+          "warning": "Some BLM pages still contain older first-come wording; follow the current reservation overview and actual booking inventory."
+        },
+        "operatingStatus": {
+          "state": "not_live_verified",
+          "reason": "Official planning/source material describes year-round operation; no current specific-site operational confirmation or reservation transaction was obtained."
+        },
+        "sourceUrls": [
+          "https://www.blm.gov/visit/mccabe-flat-campground",
+          "https://www.blm.gov/visit/merced-river",
+          "https://www.blm.gov/sites/default/files/docs/2023-05/Merced_River_Recreation_Area_Business_Plan_2023_508.pdf",
+          "https://www.recreation.gov/camping/campgrounds/273833"
+        ],
+        "distanceFromCenterStraightLineMiles": 13.2
+      }
+    ],
+    "rejected": [
+      {
+        "name": "Yosemite road shoulders and day-parking lots",
+        "verdict": "prohibited_for_vehicle_sleeping",
+        "reason": "NPS explicitly limits vehicle sleeping to a registered compatible campsite.",
+        "sourceUrls": [
+          "https://www.nps.gov/yose/planyourvisit/nrcamping.htm",
+          "https://www.nps.gov/places/lower-river-parking.htm"
+        ]
+      },
+      {
+        "name": "Camp 4",
+        "verdict": "not_suitable_for_sleeping_in_car",
+        "reason": "NPS explicitly prohibits sleeping in vehicles at this walk-in campground.",
+        "sourceUrls": [
+          "https://www.nps.gov/yose/planyourvisit/nrcamping.htm"
+        ]
+      },
+      {
+        "name": "Merced River roadside/day-use pullouts near Briceburg",
+        "verdict": "prohibited_for_dispersed_camping",
+        "reason": "Current BLM site rules prohibit dispersed camping in the river corridor; do not infer permission from BLM ownership or a parking symbol.",
+        "sourceUrls": [
+          "https://www.blm.gov/visit/mccabe-flat-campground"
+        ]
+      },
+      {
+        "name": "Hardin Flat / other nearby forest roads",
+        "verdict": "not_verified",
+        "reason": "No exact legal car-sleeping pullout with current local restrictions and November conditions fully resolved was established in this audit. This does not assert that none exists.",
+        "sourceUrls": [
+          "https://www.fs.usda.gov/r05/stanislaus/alerts",
+          "https://www.fs.usda.gov/sites/nfs/files/r05/stanislaus/publication/dispersed%20campping%20ROG.pdf"
+        ]
+      }
+    ],
+    "expected": {
+      "primaryNonCampgroundSourceId": null,
+      "result": "No fully verified non-campground car-sleeping option established within the audit radius.",
+      "websiteShould": "Show park/river restrictions; offer compatible campground fallback honestly; do not turn a nearby forest-road pin green to satisfy the search.",
+      "recommendedFallbackSourceId": "blm:facility:273833",
+      "qualification": "Fallback operation and compatible-site availability still need a current check; the test is not a claim that a campsite is available tonight.",
+      "browserComparisonStatus": "pending_root_QA"
+    }
+  },
+  {
+    "id": "california-mono-lee-vining",
+    "center": {
+      "name": "Mono Lake / Lee Vining",
+      "lat": 37.9576,
+      "lon": -119.1195
+    },
+    "searchRadiusMiles": 30,
+    "distanceConvention": "Straight-line discovery radius; no road-distance equivalence asserted.",
+    "date": "2026-11-25",
+    "vehicleAssumption": "Ordinary passenger car; no high-clearance/off-road capability assumed.",
+    "candidates": [
+      {
+        "sourceId": "usfs:mvum:01N11:19837965",
+        "name": "01N11 / 120–1S35 Connect — east-side forest-road scouting corridor",
+        "lat": 37.91402177451219,
+        "lon": -119.04656990290476,
+        "scope": "forest_road_corridor",
+        "geometryEvidence": {
+          "source": "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1",
+          "objectId": 19837965,
+          "roadId": "01N11",
+          "coordinateSource": "Actual source road vertex, not an invented campsite"
+        },
+        "carEvidence": "Current MVUM explicitly lists passenger vehicles open yearlong, but also maintenance level 2/high-clearance. Inyo guidance supports dispersed camping outside restricted areas and requires staying on established roads; it does not identify this vertex as a sleeping/parking space.",
+        "rules": [
+          "County no-dispersed-camping, LADWP and wilderness layers returned no hit at this precise road vertex.",
+          "Do not drive off-road to camp; use an existing cleared durable surface at least 200 feet from water.",
+          "14 consecutive days at one location/10-mile radius; 28 days per calendar year forest-wide under Order 05-04-50-25-17.",
+          "A source road vertex is a corridor reference, not an approved pullout. Ordinary-car suitability is not established by legal MVUM access."
+        ],
+        "validity": {
+          "checkedAt": "2026-11-25",
+          "order": "05-04-50-25-17",
+          "orderStarts": "2025-07-03",
+          "orderEnds": "2027-07-03",
+          "countyRestrictionGeometryEditedAt": "2025-05-06"
+        },
+        "operatingStatus": {
+          "state": "not_live_verified",
+          "mvumSeason": "01/01-12/31",
+          "maintenance": "2 - HIGH CLEARANCE VEHICLES",
+          "reason": "No precise pullout or current snow/ground-condition confirmation. Caltrans SR120 winter closure report affects the west/Tioga section, not a blanket closure of SR120 East."
+        },
+        "sourceUrls": [
+          "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_MVUM_01/MapServer/1",
+          "https://www.fs.usda.gov/r05/inyo/recreation/camping-cabins",
+          "https://www.fs.usda.gov/r05/inyo/alerts/stay-limits-parking-and-developed-recreation-site-use",
+          "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/0",
+          "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/2",
+          "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/3",
+          "https://roads.dot.ca.gov/roadscell.php?roadnumber=120"
+        ],
+        "distanceFromCenterStraightLineMiles": 5.0
+      }
+    ],
+    "rejected": [
+      {
+        "sourceId": "county:no-dispersed:24",
+        "name": "CA120 West / Lee Vining Canyon",
+        "lat": 37.9499678885235,
+        "lon": -119.199833734036,
+        "verdict": "prohibited_for_dispersed_camping",
+        "reason": "Actual highway vertex intersects county layer0 polygon24, USFS Restricted Recreation Area.",
+        "sourceUrls": [
+          "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/0",
+          "https://www.fs.usda.gov/r05/inyo/alerts/stay-limits-parking-and-developed-recreation-site-use"
+        ]
+      },
+      {
+        "sourceId": "county:no-dispersed:4",
+        "name": "Western part of CA120 East on LADWP land",
+        "lat": 37.8925485410041,
+        "lon": -119.07987912012,
+        "verdict": "prohibited_for_dispersed_camping",
+        "reason": "Actual highway vertex intersects county layer0 LADWP no-camping polygon4 and layer2 parcel272. East of395 is not a universal permission rule.",
+        "sourceUrls": [
+          "https://services.arcgis.com/rQj5FcfuWPllzwY8/ArcGIS/rest/services/Camp_Like_A_Pro_Mono_County_WFL1/FeatureServer/0"
+        ]
+      },
+      {
+        "sourceId": "caltrans:SRRA:90900020",
+        "name": "Crestview Rest Area",
+        "lat": 37.7311,
+        "lon": -118.9693,
+        "verdict": "closed",
+        "reason": "Current QuickMap explicitly reports Closed due to Winter Closure, no reopening estimate.",
+        "reportedAt": "2026-11-25 12:58 America/Los_Angeles",
+        "sourceUrls": [
+          "https://quickmap.dot.ca.gov/data/v2_srra.kml"
+        ]
+      }
+    ],
+    "expected": {
+      "primaryNonCampgroundSourceId": "usfs:mvum:01N11:19837965",
+      "result": "Mapped east-side forest-road candidate with resolved local exclusion checks; exact sleeping spot/current ordinary-car access still unverified.",
+      "websiteShould": "Show corridor scope and high-clearance/winter uncertainty; keep this out of any verified-exact-spot green count. Reject west-canyon and LADWP samples and mark Crestview closed.",
+      "verifiedExactSpotFound": false,
+      "browserComparisonStatus": "pending_root_QA"
+    }
+  },
+  {
+    "id": "california-truckee-donner",
+    "center": {
+      "name": "Truckee / Donner",
+      "lat": 39.32796,
+      "lon": -120.18325
+    },
+    "searchRadiusMiles": 30,
+    "distanceConvention": "Straight-line discovery radius; no road-distance equivalence asserted.",
+    "date": "2026-11-25",
+    "vehicleAssumption": "Ordinary passenger car; no high-clearance/off-road capability assumed.",
+    "candidates": [
+      {
+        "sourceId": "caltrans:SRRA:90300041",
+        "name": "Donner Summit Rest Area — westbound",
+        "lat": 39.34276723296793,
+        "lon": -120.34030208580023,
+        "scope": "exact_facility",
+        "geometryEvidence": {
+          "source": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "objectId": 23,
+          "ctNo": "90300041",
+          "coordinateSource": "Official Caltrans point geometry; current KML has rounded coordinates"
+        },
+        "carEvidence": "Caltrans explicitly describes safety rest areas as places to stop and take a nap. This is time-limited vehicle rest, not campground permission.",
+        "rules": [
+          "Maximum eight hours in any 24-hour period for this passenger-car use.",
+          "Camping prohibited. Use designated automobile parking and obey signs.",
+          "Directional highway access: westbound I-80. Do not cross the median or enter against traffic.",
+          "Open facility status does not mean an unoccupied parking space is guaranteed."
+        ],
+        "validity": {
+          "policyCheckedAt": "2026-11-25",
+          "operatingCheckDate": "2026-11-25",
+          "operatingCheckIsSnapshot": true
+        },
+        "operatingStatus": {
+          "state": "open",
+          "source": "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "placemarkId": "placemark_90300041",
+          "styleUrl": "#srra_open",
+          "reportedAt": "2026-11-25 12:58 America/Los_Angeles",
+          "httpLastModified": "2026-11-25T20:58:53Z",
+          "freshnessRequirement": "Refresh before travel; do not retain this snapshot as current status indefinitely."
+        },
+        "sourceUrls": [
+          "https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-h-safety-roadside-rest-areas",
+          "https://dot.ca.gov/-/media/dot-media/programs/design/documents/pdpm-chapter29-a11y.pdf",
+          "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "https://quickmap.dot.ca.gov/config/layers.json"
+        ],
+        "distanceFromCenterStraightLineMiles": 8.5
+      },
+      {
+        "sourceId": "caltrans:SRRA:90300040",
+        "name": "Donner Summit Rest Area — eastbound",
+        "lat": 39.34085523380519,
+        "lon": -120.33984608389402,
+        "scope": "exact_facility",
+        "geometryEvidence": {
+          "source": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "objectId": 22,
+          "ctNo": "90300040",
+          "coordinateSource": "Official Caltrans point geometry; current KML has rounded coordinates"
+        },
+        "carEvidence": "Caltrans explicitly describes safety rest areas as places to stop and take a nap. This is time-limited vehicle rest, not campground permission.",
+        "rules": [
+          "Maximum eight hours in any 24-hour period for this passenger-car use.",
+          "Camping prohibited. Use designated automobile parking and obey signs.",
+          "Directional highway access: eastbound I-80. Do not cross the median or enter against traffic.",
+          "Open facility status does not mean an unoccupied parking space is guaranteed."
+        ],
+        "validity": {
+          "policyCheckedAt": "2026-11-25",
+          "operatingCheckDate": "2026-11-25",
+          "operatingCheckIsSnapshot": true
+        },
+        "operatingStatus": {
+          "state": "open",
+          "source": "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "placemarkId": "placemark_90300040",
+          "styleUrl": "#srra_open",
+          "reportedAt": "2026-11-25 12:58 America/Los_Angeles",
+          "httpLastModified": "2026-11-25T20:58:53Z",
+          "freshnessRequirement": "Refresh before travel; do not retain this snapshot as current status indefinitely."
+        },
+        "sourceUrls": [
+          "https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-h-safety-roadside-rest-areas",
+          "https://dot.ca.gov/-/media/dot-media/programs/design/documents/pdpm-chapter29-a11y.pdf",
+          "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "https://quickmap.dot.ca.gov/config/layers.json"
+        ],
+        "distanceFromCenterStraightLineMiles": 8.4
+      }
+    ],
+    "rejected": [
+      {
+        "name": "Arbitrary Truckee / Sierraville forest-road pullouts",
+        "verdict": "requires_local_polygon_resolution",
+        "reason": "Order17-25-05 prohibits camping even on roads/trails within mapped Restricted Use Areas except named exceptions. A forest-road symbol alone cannot establish a sleeping site.",
+        "sourceUrls": [
+          "https://www.fs.usda.gov/r05/tahoe/alerts/camping-and-campfire-restrictions-truckee-and-sierraville-districts"
+        ]
+      },
+      {
+        "name": "Lake Tahoe Basin roadside overnighting",
+        "verdict": "restricted_outside_order_exemptions",
+        "reason": "Separate LTBMU order19-24-05 applies; do not apply Tahoe NF general policy across the unit boundary.",
+        "sourceUrls": [
+          "https://www.fs.usda.gov/r05/laketahoebasin/alerts/camping-overnight-stay-restriction"
+        ]
+      }
+    ],
+    "expected": {
+      "primaryNonCampgroundSourceId": "caltrans:SRRA:90300041",
+      "directionDependentAlternativeSourceId": "caltrans:SRRA:90300040",
+      "result": "Verified current open exact rest facilities support time-limited car rest.",
+      "websiteShould": "Surface Donner Summit prominently as open, direction-specific, eight-hour rest; provide source freshness and prohibit campground-style/unlimited-stay interpretation.",
+      "qualification": "Choose the facility matching actual travel direction. Open status does not guarantee an empty bay or safe winter approach.",
+      "browserComparisonStatus": "pending_root_QA"
+    }
+  },
+  {
+    "id": "california-redding-shasta",
+    "center": {
+      "name": "Redding / Shasta",
+      "lat": 40.58654,
+      "lon": -122.39168
+    },
+    "searchRadiusMiles": 30,
+    "distanceConvention": "Straight-line discovery radius; no road-distance equivalence asserted.",
+    "date": "2026-11-25",
+    "vehicleAssumption": "Ordinary passenger car; no high-clearance/off-road capability assumed.",
+    "candidates": [
+      {
+        "sourceId": "caltrans:SRRA:99900178",
+        "name": "Herbert S. Miles Rest Area — southbound",
+        "lat": 40.27040315206914,
+        "lon": -122.2703395129296,
+        "scope": "exact_facility",
+        "geometryEvidence": {
+          "source": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "objectId": 82,
+          "ctNo": "99900178",
+          "coordinateSource": "Official Caltrans point geometry; current KML has rounded coordinates"
+        },
+        "carEvidence": "Caltrans explicitly describes safety rest areas as places to stop and take a nap. This is time-limited vehicle rest, not campground permission.",
+        "rules": [
+          "Maximum eight hours in any 24-hour period for this passenger-car use.",
+          "Camping prohibited. Use designated automobile parking and obey signs.",
+          "Directional highway access: southbound I-5. Do not cross the median or enter against traffic.",
+          "Open facility status does not mean an unoccupied parking space is guaranteed."
+        ],
+        "validity": {
+          "policyCheckedAt": "2026-11-25",
+          "operatingCheckDate": "2026-11-25",
+          "operatingCheckIsSnapshot": true
+        },
+        "operatingStatus": {
+          "state": "open",
+          "source": "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "placemarkId": "placemark_99900178",
+          "styleUrl": "#srra_open",
+          "reportedAt": "2026-11-25 12:58 America/Los_Angeles",
+          "httpLastModified": "2026-11-25T20:58:53Z",
+          "freshnessRequirement": "Refresh before travel; do not retain this snapshot as current status indefinitely."
+        },
+        "sourceUrls": [
+          "https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-h-safety-roadside-rest-areas",
+          "https://dot.ca.gov/-/media/dot-media/programs/design/documents/pdpm-chapter29-a11y.pdf",
+          "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "https://quickmap.dot.ca.gov/config/layers.json"
+        ],
+        "distanceFromCenterStraightLineMiles": 22.8
+      },
+      {
+        "sourceId": "caltrans:SRRA:90200107",
+        "name": "Lakehead Rest Area — southbound",
+        "lat": 40.91746119056417,
+        "lon": -122.39785962642311,
+        "scope": "exact_facility",
+        "geometryEvidence": {
+          "source": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "objectId": 15,
+          "ctNo": "90200107",
+          "coordinateSource": "Official Caltrans point geometry; current KML has rounded coordinates"
+        },
+        "carEvidence": "Caltrans explicitly describes safety rest areas as places to stop and take a nap. This is time-limited vehicle rest, not campground permission.",
+        "rules": [
+          "Maximum eight hours in any 24-hour period for this passenger-car use.",
+          "Camping prohibited. Use designated automobile parking and obey signs.",
+          "Directional highway access: southbound I-5. Do not cross the median or enter against traffic.",
+          "Open facility status does not mean an unoccupied parking space is guaranteed."
+        ],
+        "validity": {
+          "policyCheckedAt": "2026-11-25",
+          "operatingCheckDate": "2026-11-25",
+          "operatingCheckIsSnapshot": true
+        },
+        "operatingStatus": {
+          "state": "open",
+          "source": "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "placemarkId": "placemark_90200107",
+          "styleUrl": "#srra_open",
+          "reportedAt": "2026-11-25 12:58 America/Los_Angeles",
+          "httpLastModified": "2026-11-25T20:58:53Z",
+          "freshnessRequirement": "Refresh before travel; do not retain this snapshot as current status indefinitely."
+        },
+        "sourceUrls": [
+          "https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-h-safety-roadside-rest-areas",
+          "https://dot.ca.gov/-/media/dot-media/programs/design/documents/pdpm-chapter29-a11y.pdf",
+          "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "https://quickmap.dot.ca.gov/config/layers.json"
+        ],
+        "distanceFromCenterStraightLineMiles": 22.9
+      },
+      {
+        "sourceId": "caltrans:SRRA:90200086",
+        "name": "Herbert S. Miles Rest Area — northbound",
+        "lat": 40.251550152328534,
+        "lon": -122.26073450941782,
+        "scope": "exact_facility",
+        "geometryEvidence": {
+          "source": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "objectId": 10,
+          "ctNo": "90200086",
+          "coordinateSource": "Official Caltrans point geometry; current KML has rounded coordinates"
+        },
+        "carEvidence": "Caltrans explicitly describes safety rest areas as places to stop and take a nap. This is time-limited vehicle rest, not campground permission.",
+        "rules": [
+          "Maximum eight hours in any 24-hour period for this passenger-car use.",
+          "Camping prohibited. Use designated automobile parking and obey signs.",
+          "Directional highway access: northbound I-5. Do not cross the median or enter against traffic.",
+          "Open facility status does not mean an unoccupied parking space is guaranteed."
+        ],
+        "validity": {
+          "policyCheckedAt": "2026-11-25",
+          "operatingCheckDate": "2026-11-25",
+          "operatingCheckIsSnapshot": true
+        },
+        "operatingStatus": {
+          "state": "open",
+          "source": "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "placemarkId": "placemark_90200086",
+          "styleUrl": "#srra_open",
+          "reportedAt": "2026-11-25 12:58 America/Los_Angeles",
+          "httpLastModified": "2026-11-25T20:58:53Z",
+          "freshnessRequirement": "Refresh before travel; do not retain this snapshot as current status indefinitely."
+        },
+        "sourceUrls": [
+          "https://dot.ca.gov/programs/design/lap-landscape-architecture-and-community-livability/lap-liv-h-safety-roadside-rest-areas",
+          "https://dot.ca.gov/-/media/dot-media/programs/design/documents/pdpm-chapter29-a11y.pdf",
+          "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+          "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "https://quickmap.dot.ca.gov/config/layers.json"
+        ],
+        "distanceFromCenterStraightLineMiles": 24.1
+      }
+    ],
+    "rejected": [
+      {
+        "sourceId": "caltrans:SRRA:90200131",
+        "name": "O’Brien Rest Area — northbound",
+        "lat": 40.793572187451254,
+        "lon": -122.31753459496386,
+        "verdict": "closed",
+        "reason": "Current QuickMap explicitly reports Closed due to Rest Area Closure, no reopening estimate; static location feed alone would give a bad recommendation.",
+        "reportedAt": "2026-11-25 12:58 America/Los_Angeles",
+        "sourceUrls": [
+          "https://quickmap.dot.ca.gov/data/v2_srra.kml",
+          "https://lcsreports.dot.ca.gov/reportall.php?district=2&env=prod"
+        ]
+      },
+      {
+        "name": "Generic Shasta-Trinity roadside sleeping",
+        "verdict": "not_verified",
+        "reason": "Forest guidance combines a roadside vehicle-parking limit with a200ft campsite setback from roads; do not equate that with explicit car-sleeping permission. Current local restrictions also exist.",
+        "sourceUrls": [
+          "https://www.fs.usda.gov/r05/shasta-trinity/recreation/camping-cabins",
+          "https://www.fs.usda.gov/media/134306"
+        ]
+      },
+      {
+        "name": "Upper Ski Bowl parking lot (additional Shasta regression, outside30mi Redding radius)",
+        "verdict": "overnight_parking_prohibited",
+        "reason": "Order14-26-09 prohibits parking00:00–06:00 through2028-08-29; not a viable overnight alternative.",
+        "sourceUrls": [
+          "https://www.fs.usda.gov/r05/shasta-trinity/alerts/upper-ski-bowl-parking-restriction-order"
+        ]
+      }
+    ],
+    "expected": {
+      "primaryNonCampgroundSourceId": "caltrans:SRRA:99900178",
+      "directionDependentAlternativeSourceIds": [
+        "caltrans:SRRA:90200107",
+        "caltrans:SRRA:90200086"
+      ],
+      "result": "Verified open exact rest facilities within the discovery radius; use direction and onward route to rank.",
+      "websiteShould": "Reject closer closed O’Brien; surface HerbertMiles/Lakehead with open status, eight-hour limit, direction and freshness.",
+      "qualification": "Straight-line distance is not a road detour estimate, and no universal best facility can be chosen without the trip direction.",
+      "browserComparisonStatus": "pending_root_QA"
+    }
+  }
+]
