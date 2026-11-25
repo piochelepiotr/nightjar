@@ -1,0 +1,8 @@
+const SHELL='nightjar-shell-v1',DATA='nightjar-data-v1';
+const shell=['/','/app.js','/app.css','/icon.svg','/manifest.webmanifest'];
+self.addEventListener('install',e=>{e.waitUntil(caches.open(SHELL).then(c=>c.addAll(shell)).then(()=>self.skipWaiting()))});
+self.addEventListener('activate',e=>{e.waitUntil(Promise.all([self.clients.claim(),caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('nightjar-')&&![SHELL,DATA].includes(k)).map(k=>caches.delete(k))))]))});
+self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(u.origin!==location.origin||e.request.method!=='GET'||u.pathname==='/api/availability'||u.pathname==='/api/health')return;
+if(u.pathname.startsWith('/api/')){e.respondWith((async()=>{const cache=await caches.open(DATA);try{const r=await fetch(e.request);if(r.ok)await cache.put(e.request,r.clone());else{const old=await cache.match(e.request);if(old)return offline(old)}return r}catch{const old=await cache.match(e.request);if(old)return offline(old);return Response.json({error:'No saved data for this area. Connect once to load it.'},{status:503})}})());return}
+if(shell.includes(u.pathname)){e.respondWith((async()=>{const c=await caches.open(SHELL);try{const r=await fetch(e.request);if(r.ok)await c.put(e.request,r.clone());return r}catch{return await c.match(u.pathname)||Response.error()}})())}});
+function offline(r){const h=new Headers(r.headers);h.set('X-Nightjar-Offline','true');return new Response(r.body,{status:r.status,headers:h})}

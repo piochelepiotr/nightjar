@@ -1,0 +1,47 @@
+{
+  "fetchedAt": "2026-11-25T19:53:05.365Z",
+  "bounds": [
+    -125,
+    31,
+    -102,
+    49.1
+  ],
+  "sources": [
+    {
+      "source": "usfs",
+      "url": "https://apps.fs.usda.gov/ArcX/rest/services/EDW/EDW_RecreationOpportunities_01/MapServer/0",
+      "fetchedAt": "2026-11-25T19:53:05.365Z",
+      "count": 3270
+    },
+    {
+      "source": "blm",
+      "url": "https://gis.blm.gov/arcgis/rest/services/Recreation/BLM_Natl_Recreation_Sites_Facilities/MapServer/8",
+      "fetchedAt": "2026-11-25T19:53:05.365Z",
+      "count": 284
+    },
+    {
+      "source": "primitive",
+      "url": "https://gis.blm.gov/arcgis/rest/services/Recreation/BLM_Natl_Recs_pts/MapServer/4",
+      "fetchedAt": "2026-11-25T19:53:05.365Z",
+      "count": 1345
+    },
+    {
+      "source": "wa",
+      "url": "https://data.wsdot.wa.gov/ArcGIS/rest/services/Shared/FacilitiesData/MapServer/8",
+      "fetchedAt": "2026-11-25T19:53:05.365Z",
+      "count": 48
+    },
+    {
+      "source": "recreation.gov",
+      "fetchedAt": "2026-11-25T19:53:05.365Z",
+      "count": 3417,
+      "url": "https://www.recreation.gov/api/search"
+    },
+    {
+      "source": "caltrans",
+      "url": "https://caltrans-gis.dot.ca.gov/arcgis/rest/services/CHhighway/Rest_Areas/FeatureServer/0",
+      "fetchedAt": "2026-11-25T19:53:05.365Z",
+      "count": 87
+    }
+  ]
+}

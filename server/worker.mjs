@@ -1,0 +1,4 @@
+import {api} from './api.mjs';
+import {PersistentCache,BucketStore} from './cache.mjs';
+let cache;
+export function createHandler(assets){return {async fetch(request,env={}){const u=new URL(request.url);if(u.pathname.startsWith('/api/')){if(!cache){const bucket=env.BUCKET;if(!env.LOCAL_CACHE&&!bucket)return Response.json({error:'Persistent cache storage is not configured'},{status:503});cache=env.LOCAL_CACHE||new PersistentCache(new BucketStore(bucket))}return api(request,cache)}const path=u.pathname==='/'?'/index.html':u.pathname;const asset=assets[path];if(!asset)return new Response('Not found',{status:404});return new Response(asset.body,{headers:{'Content-Type':asset.type,'Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin'}})}}}
