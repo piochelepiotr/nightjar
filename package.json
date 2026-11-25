@@ -1,1 +1,22 @@
-{"name":"nightjar","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"node server/local.mjs","build":"node scripts/build.mjs","test":"node --test tests/*.test.mjs","refresh-data":"node scripts/harvest.mjs"},"dependencies":{"leaflet":"1.9.4"},"devDependencies":{"esbuild":"^0.25.12"},"engines":{"node":">=22"}}
+{
+  "name": "nightjar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/local.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "refresh-data": "node scripts/harvest.mjs",
+    "build:pages": "node scripts/build-pages.mjs"
+  },
+  "dependencies": {
+    "leaflet": "1.9.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

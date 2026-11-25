@@ -4,6 +4,8 @@ A road-trip map for finding a place to sleep **in the car** across the western U
 
 Roadside dispersed camping, pullouts, rest areas, and parking are the primary use case. Campgrounds are an optional backup. It is an evidence explorer, not a comprehensive registry of legal sleeping spaces.
 
+**Live map: https://piochelepiotr.github.io/nightjar/**
+
 ## Run locally
 
 Requires Node 22 or later.
@@ -45,7 +47,7 @@ Source datasets and site text remain attributed to their respective publishers. 
 
 ## Backend and caching
 
-The same fetch handler runs locally on Node and as a Cloudflare Worker. Production uses an R2 `BUCKET` binding for durable response caching. Cache reads preserve original timestamps, identical in-flight requests coalesce, and failed refreshes can fall back to marked stale location data. Availability refuses stale fallback.
+GitHub Pages is the primary host and runs source adapters in the browser, with persistent Cache Storage for provider responses. The included Node backend persists data to disk and can optionally provide availability where browser CORS prevents direct access. No external backend is configured on the public site. Cache reads preserve original timestamps, identical in-flight requests coalesce, and failed refreshes can fall back to marked stale location data. Availability refuses stale fallback.
 
 | Data | Server cache |
 | --- | --- |
@@ -62,4 +64,8 @@ Only fixed upstream providers are callable. Coordinates, dates, durations, and c
 
 ## Deployment
 
-`npm run build` produces the Worker ES module at `dist/server/index.js` with the browser assets and catalog embedded. `.openai/hosting.json` identifies the owner-private Sites deployment and requests persistent R2 storage. Deploy through the Sites source/archive workflow; no credentials belong in the repository. The independent GitHub repository holds the same application source.
+GitHub Actions (`.github/workflows/pages.yml`) tests and publishes `dist/pages` to **https://piochelepiotr.github.io/nightjar/** on every push to `main`. Run `npm run build:pages` for the same static build locally. All files use relative paths for the project subdirectory. The public frontend does not call ChatGPT Sites.
+
+The regional catalog, forest summaries, and map boundaries are bundled for a single cacheable initial download (approximately 18MB before HTTP compression). Road/ownership/parking/geocoding/routing adapters run directly against providers that support browser access. Their responses persist in browser Cache Storage, capped at 250 entries. Some providers may reject browser requests; that is shown as unavailable rather than fabricated permission or inventory.
+
+**Recreation.gov availability has no guaranteed browser CORS support.** The backend implementation is included and tested locally; on GitHub Pages use the official booking link when direct access is blocked, or configure your own reachable HTTPS backend under Sources & rules. The app never uses an anonymous third-party CORS proxy. This first version does not include a separately hosted backend.
